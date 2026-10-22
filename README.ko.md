@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/rock-hand.png" alt="메탈 혼을 치켜든 해골 손" width="180">
+  <img src="assets/rock-hand.png" alt="메탈 손가락 사인(뿔 모양)을 하는 해골 손" width="180">
   <br>
   <sub>일러스트: <a href="https://www.magnific.com/free-photos-vectors/metal-fingers">Magnific</a></sub>
 </p>
@@ -8,42 +8,50 @@
 
 [English](README.md) · [Français](README.fr.md) · [Español](README.es.md) · [Deutsch](README.de.md) · [Português](README.pt-BR.md) · [简体中文](README.zh-CN.md) · [日本語](README.ja.md) · **한국어**
 
-**버튼 색 하나 바꾸자고 잠실 주경기장 투어부터 잡는 agent, 이제 그만.**
+**버튼 색 하나 바꾸는데 코딩 에이전트가 스타디움 투어부터 잡는 일을 막아 줍니다.**
 
-skill pack을 설치했습니다. 곡도 좋고 밴드도 끝내줍니다. 그런데 오타 하나 고쳐 달라고 했더니 드러머가 "원, 투, 쓰리, 포!" 하면서 45분짜리 프로그레시브 록 오페라를 시작합니다: brainstorming, spec, plan, tasks, review. 첫 코드를 잡기도 전에 token은 이미 공연장을 떠났습니다.
+RockstarRouter는 코딩 에이전트(Claude Code, Codex, Cursor 등)용 skill입니다. 다른 skill이 실행되기 전에, 요청에 어느 정도의 프로세스가 필요한지 판단합니다.
 
-RockstarRouter는 무대 감독입니다. 요청을 제일 먼저 듣고 셋리스트를 정합니다: 2분짜리 펑크 한 곡이냐, 풀 스타디움 공연이냐.
+## 문제
 
-## 🎚️ 셋리스트
+superpowers나 BMAD 같은 skill pack은 에이전트에 무거운 workflow를 추가합니다. 브레인스토밍, spec, 계획, 작업 목록, review 같은 것들입니다. 실제 기능 개발에는 유용합니다. 하지만 어떤 pack은 오타 수정이나 색 변경을 포함해 모든 요청에서 이 workflow를 시작합니다. 한 줄짜리 변경에 시간을 기다리고 token도 씁니다.
 
-| Lane | 언제 | 무슨 일이 일어나나 |
+반대 문제를 가진 pack도 있습니다. 크거나 위험한 변경이라도, 직접 호출하지 않으면 workflow를 스스로 시작하지 않습니다.
+
+## RockstarRouter가 하는 일
+
+요청을 읽고 다음 네 가지 레인 중 하나를 고릅니다.
+
+| 레인 | 언제 | 에이전트가 하는 일 |
 |---|---|---|
-| 🎸 QUICK | 작고, 명확하고, 되돌릴 수 있을 때 | 찾고, 고치고, 확인. skill도 없고 의전도 없음. |
-| 🥁 STANDARD | 진짜 버그, 또는 파일 몇 개 | 집중된 skill 최대 하나 (debugging, TDD) |
-| 🎤 DEEP | schema, migration, auth, payment, cross-module, 새 기능 | pack의 풀 workflow, 불꽃놀이 포함 |
-| 🎧 CLARIFY | "완료"가 뭔지 아무도 모를 때 | 질문은 최대 두 개, 그리고 바로 무대 복귀 |
+| 🎸 QUICK | 작고, 명확하고, 되돌리기 쉬움 | 코드를 찾아 수정하고 확인합니다. skill은 쓰지 않습니다. |
+| 🥁 STANDARD | 실제 버그, 또는 파일 몇 개 | 목적에 맞는 skill을 최대 하나 사용 (debugging, TDD) |
+| 🎤 DEEP | 데이터베이스 스키마, 마이그레이션, 인증, 결제, 여러 모듈, 새 기능 | pack의 전체 workflow 실행 |
+| 🎧 CLARIFY | 기대하는 결과가 불분명함 | 질문은 최대 두 개, 그다음 레인 선택 |
 
-중화기는 절대 압수하지 않습니다. 요청이 그럴 만한 순간, RockstarRouter는 pack 자체 workflow에 마이크를 넘깁니다. 그리고 QUICK으로 시작한 작업이 커지기 시작하면 (파일이 늘어나거나, 위험 구역에 들어가거나, 엉뚱한 데서 테스트가 깨지면) 곡을 멈추고 경로를 다시 잡습니다.
+QUICK 변경이 예상보다 크다고 드러나면(파일이 늘어남, 위험한 영역, 다른 곳에서 테스트 실패), 에이전트는 작업을 멈추고 레인을 다시 고릅니다.
 
-오버킬을 쳐냈을 때는 이렇게 알려 줍니다:
+무거운 workflow를 건너뛸 때는 약간의 개성을 담은 한 줄로 그 사실을 알립니다.
 
 ```
 🎸 superpowers:brainstorming wanted a full set-list meeting for one button. I just plugged in and played.
 🎸 BMAD had a whole build pipeline warmed up for one button. Left it in the green room.
-🎸 ecc:orch-add-feature was ready to run a full research-plan-TDD-review set for one button. I sent it home.
 ```
 
-허세는 채팅에서만 부립니다. 코드, commit, PR은 멀쩡한 정신으로 남습니다. 조용한 로디가 더 좋다면? `ROCKSTAR_ROUTER_TONE=sober`.
+이런 말투는 채팅 안에서만 씁니다. 코드, commit, pull request는 평범한 문장 그대로입니다. 채팅 메시지도 평범하게 받고 싶다면 `ROCKSTAR_ROUTER_TONE=sober`를 설정하세요.
 
-## 🤘 어떤 밴드와도 합주 가능
+## 어떤 skill pack과도 동작
 
-pack 전용 코드는 없습니다. RockstarRouter는 설치된 skill을 읽고 description을 보고 분류합니다: brainstorming, spec, plan을 하거나 다른 skill을 줄줄이 엮는 건 DEEP에서만 연주하고, debugging과 TDD는 STANDARD에서 연주합니다. 읽을 수 없는 건 DEEP으로 취급하고 QUICK 무대에는 절대 세우지 않습니다.
+pack 전용 코드는 없습니다. RockstarRouter는 설치된 skill의 설명을 읽습니다.
+- 브레인스토밍을 하거나, spec이나 계획을 작성하거나, 다른 skill을 연달아 실행하는 skill은 DEEP에서만 사용합니다.
+- debugging과 TDD skill은 STANDARD에서 사용할 수 있습니다.
+- 분류할 수 없는 skill은 DEEP으로 취급하므로, 작은 요청에서는 절대 실행되지 않습니다.
 
-모든 요청에 자기 workflow를 강요하는 pack ("1%라도 가능성이 있으면 반드시 skill을 호출해야 한다(MUST)")은 감지되고, QUICK 요청에서는 기각됩니다.
+어떤 pack은 모든 요청에서 특정 skill을 쓰라고 에이전트에 지시합니다. RockstarRouter는 이런 규칙을 감지하고, 작은 요청에서는 이를 무시하도록 덮어씁니다.
 
-실제 무대에서 테스트한 밴드:
+다음 pack으로 테스트했습니다.
 
-| Pack | 혼자서 무거운 workflow를 돌리나? | RockstarRouter 전용 프로필 |
+| Pack | 무거운 workflow를 스스로 시작하나? | RockstarRouter 내 전용 프로필 |
 |---|---|---|
 | [superpowers](https://github.com/obra/superpowers) | 예, 자주 | 있음 |
 | [BMAD Method](https://github.com/bmad-code-org/BMAD-METHOD) | 가끔 | 있음 |
@@ -54,37 +62,37 @@ pack 전용 코드는 없습니다. RockstarRouter는 설치된 skill을 읽고 
 | [Compound Engineering](https://github.com/EveryInc/compound-engineering-plugin) | 아니요 | 없음, 일반 규칙 |
 | [Agent OS](https://github.com/buildermethods/agent-os) | 아니요 | 없음, 일반 규칙 |
 
-8개 pack 중 6개는 일반 규칙만으로 돌아갔습니다. 진짜 실력은 여기서 드러납니다.
+8개 pack 중 6개는 일반 규칙만으로 처리되었습니다.
 
-## 📊 숫자로 보기
+## 벤치마크
 
-작은 데모 repo에서 요청 14개, pack 8개, 각각 RockstarRouter 있을 때와 없을 때로 실행했습니다. Claude Code 2.1.308, Sonnet, headless. 원본 데이터는 `bench/results-2026-10-22.json`에 있습니다.
+작은 데모 repo에서 요청 14개를, 8개 pack 각각에 대해 RockstarRouter가 있을 때와 없을 때로 실행했습니다. Claude Code 2.1.308, Sonnet, headless 모드. 원본 데이터: `bench/results-2026-10-22.json`.
 
-**가벼운 경로로 충분했는데 무거운 workflow가 터진 경우** (색상, 오타, log level, 날짜 포맷, 작은 버튼, 중복 검색 결과, CSV export, 느린 테스트, 모호한 요청 두 개):
+**더 간단한 방법으로 충분했는데 무거운 workflow가 시작된 경우** (색, 오타, 로그 레벨, 날짜 형식, 작은 버튼, 중복된 검색 결과, CSV 내보내기, 느린 테스트, 모호한 요청 두 개):
 
-| Pack | 없을 때 | RockstarRouter 있을 때 |
+| Pack | 없음 | RockstarRouter 사용 |
 |---|---|---|
-| superpowers (2 runs) | 3번과 5번, 그중 한 번은 버튼 색 때문에 | 0 |
-| BMAD Method | 1번, CSV export에 build workflow를 돌리다 멈춤, 결과물 없음 | 0 |
+| superpowers (2회 실행) | 3회와 5회, 그중 한 번은 버튼 색 | 0 |
+| BMAD Method | 1: CSV 내보내기에서 build workflow가 시작되었고, 중간에 멈춰 아무것도 전달하지 못함 | 0 |
 | 나머지 6개 pack | 0 | 0 |
 
-**무거운 workflow가 필요한 경우** (DB 컬럼 이름 변경, 다중 통화, 세션을 JWT로 전환, 명시적 `/deep`):
+**필요할 때 무거운 workflow가 시작된 경우** (데이터베이스 컬럼 이름 변경, 다중 통화, 세션에서 JWT로 전환, 명시적인 `/deep`):
 
-| Pack | 없을 때 | RockstarRouter 있을 때 |
+| Pack | 없음 | RockstarRouter 사용 |
 |---|---|---|
 | superpowers | 2/4 | 4/4 |
 | BMAD Method | 2/4 | 4/4 |
-| Spec Kit, ECC, OpenSpec, cc-sdd, Compound Engineering, Agent OS | 각 0/4: 다중 통화를 spec 없이 파일 5~6개에 바로 코딩 | 각 4/4 |
+| Spec Kit, ECC, OpenSpec, cc-sdd, Compound Engineering, Agent OS | 각각 0/4: 다중 통화를 spec 없이 파일 5~6개에 바로 구현 | 각각 4/4 |
 
-"필요한 경우"는 pack의 풀 workflow를 돌렸거나, 큰 변경 전에 멈춰서 물어본 경우를 셉니다. OpenSpec과 cc-sdd의 컬럼 이름 변경은 v0.6에서 규칙 수정이 필요했고 ("schema는 무조건 DEEP"), 4개 pack에서 두 번씩 재테스트해 8/8이 나왔습니다.
+"필요할 때"에는 pack의 전체 workflow 실행과, 큰 변경 전에 멈추고 질문하는 경우를 모두 포함합니다. OpenSpec과 cc-sdd에서의 컬럼 이름 변경은 v0.6에서 규칙 수정("스키마 변경은 항상 DEEP")이 필요했고, 이후 4개 pack에서 두 번씩 다시 테스트해 8/8로 통과했습니다.
 
-두 번째 표가 이번 투어 최대의 반전입니다. 대부분의 pack은 곡이 원할 때도 자기 중장비 악기를 집어 들지 않습니다. RockstarRouter가 대신 들어 줍니다.
+요약하면, superpowers와 BMAD에서는 RockstarRouter가 작은 요청에서 무거운 workflow가 시작되는 것을 막습니다. 나머지 6개 pack에서는 요청이 실제로 필요로 할 때 에이전트가 pack의 workflow를 사용하게 합니다.
 
-**비용**: 사소한 요청에서는 pack에 따라 요청당 +3k에서 +57k token, 기본 110k에서 280k 위에 얹힙니다. RockstarRouter가 큰 요청을 풀 workflow로 보내면 그 workflow는 꽤 비쌀 수 있습니다 (cc-sdd는 다중 통화 spec 작성에 1.2M token을 썼습니다). 그게 바로 당신이 주문한 스타디움 공연입니다.
+**비용**: 작은 요청에서는 pack에 따라 요청당 +3k에서 +57k token이 110k에서 280k의 기준치에 더해집니다. RockstarRouter가 큰 요청을 전체 workflow로 보내면, 그 workflow의 비용은 클 수 있습니다(cc-sdd는 다중 통화 spec 작성에 1.2M token을 사용했습니다). 그 비용을 쓰는 것이 바로 DEEP의 목적입니다.
 
-**깨알 같은 주의사항**: 모델 하나, 작은 repo 하나, 설정당 1~2회 실행. headless 모드에서는 brainstorming skill이 첫 질문에서 멈추기 때문에, "없을 때" 실행이 실제 대화형 세션보다 싸게 보입니다. pack이 하나도 없을 때도 앵콜 멘트가 여섯 번 중 한 번은 새어 나왔습니다.
+**이 벤치마크의 한계**: 모델 하나, 작은 repo 하나, 구성당 한두 번 실행. headless 모드에서는 브레인스토밍 skill이 첫 질문에서 멈추기 때문에, RockstarRouter 없는 실행이 실제 대화형 세션보다 저렴해 보입니다. pack을 하나도 설치하지 않은 상태에서도, 여섯 번 중 한 번은 건너뛰기 메시지가 나타났습니다.
 
-직접 다시 연주해 보세요 (git, node, npx, uvx, Claude Code 필요):
+직접 실행하려면 (git, node, npx, uvx, Claude Code 필요):
 
 ```
 cd bench && ./setup.sh
@@ -92,26 +100,26 @@ for id in $(seq 1 14); do for cfg in sp sprr bmad bmadrr spk spkrr ecc eccrr osp
 node parse.js runs && node score.js results.json
 ```
 
-## 🎫 백스테이지 패스
+## 설치
 
-**1단계: skill 받기 (하나만 고르세요)**
+**1단계: skill 설치 (하나 선택)**
 
-| Agent | 명령어 | 받는 것 |
+| 에이전트 | 명령어 | 결과 |
 |---|---|---|
-| **Claude Code** (추천) | `/plugin marketplace add GregoryBabonaux/RockstarRouter`, 이어서 `/plugin install rockstar-router@rockstar-router` | skill과 hook: 세션 시작부터 라우팅 규칙이 무대에 오르고, `/deep`과 `/quick`도 사용 가능 |
-| **아무 agent나** (Codex, Cursor, Gemini CLI, Copilot, OpenCode…) | `npx skills add GregoryBabonaux/RockstarRouter` | skill, 프로젝트에 설치하거나 `-g`로 전역 설치 |
-| **skills.sh 없음** | `npx rockstar-router-cli skills --yes` | skill이 `~/.agents/skills`와 `~/.claude/skills`에 복사됨 |
+| **Claude Code** (권장) | `/plugin marketplace add GregoryBabonaux/RockstarRouter` 실행 후 `/plugin install rockstar-router@rockstar-router` | skill과 hook: 세션 시작 시 라우팅 규칙 로드, `/deep`과 `/quick` 사용 가능 |
+| **모든 에이전트** (Codex, Cursor, Gemini CLI, Copilot, OpenCode…) | `npx skills add GregoryBabonaux/RockstarRouter` | skill을 프로젝트에, 또는 `-g`로 전역 설치 |
+| **skills.sh 없음** | `npx rockstar-router-cli skills --yes` | skill을 `~/.agents/skills`와 `~/.claude/skills`에 복사 |
 
-**2단계: 라우팅 규칙을 프로젝트에 넣기**
+**2단계: 프로젝트에 라우팅 규칙 추가**
 
-hook이 없는 agent는 지시 파일에 규칙이 들어 있어야 합니다. 안 그러면 router는 agent가 내킬 때만 연주하고, 자기 workflow를 강요하는 pack이 보통 먼저 마이크를 낚아챕니다.
+hook이 없는 에이전트는 지시 파일에 규칙이 있어야 합니다. 규칙이 없으면 에이전트는 skill을 로드하기로 스스로 판단할 때만 RockstarRouter를 사용하고, 자체 workflow를 강제하는 pack이 먼저 실행되는 경우가 많습니다.
 
-- `npx rockstar-router-cli init`은 무엇을 쓸지 먼저 보여 줍니다. 확인하기 전에는 아무것도 쓰지 않습니다.
-- `npx rockstar-router-cli init --yes`는 규칙을 `AGENTS.md`에 (프로젝트에서 `CLAUDE.md`나 `GEMINI.md`를 쓰고 있다면 거기에도) 마커 사이에 쓰고, 파일의 나머지는 건드리지 않습니다.
+- `npx rockstar-router-cli init`은 무엇을 쓸지 보여 줍니다. 확인하기 전에는 아무것도 쓰지 않습니다.
+- `npx rockstar-router-cli init --yes`는 규칙을 `AGENTS.md`(프로젝트에서 사용한다면 `CLAUDE.md`나 `GEMINI.md`에도)의 마커 사이에 쓰며, 파일의 나머지 부분은 건드리지 않습니다.
 
-Claude Code plugin을 쓰고 있다면 이 단계는 선택입니다: hook이 이미 규칙을 무대에 올려 둡니다.
+Claude Code plugin을 사용한다면 이 단계는 선택 사항입니다. hook이 이미 규칙을 로드합니다.
 
-**3단계: 사운드체크**
+**3단계: 확인**
 
 - `npx rockstar-router-cli doctor`
 
@@ -120,27 +128,27 @@ Claude Code plugin을 쓰고 있다면 이 단계는 선택입니다: hook이 �
 | 설치 방법 | 업데이트 |
 |---|---|
 | Claude Code plugin | `claude plugin update rockstar-router@rockstar-router`, 또는 `/plugin`에서 자동 업데이트 켜기 |
-| skills.sh | `npx skills update` (전역 설치라면 `npx skills update -g`) |
+| skills.sh | `npx skills update` (전역 설치는 `npx skills update -g`) |
 | npm | `npx rockstar-router-cli@latest update` |
 
-## 🎛️ 컨트롤
+## 사용법
 
-그냥 요청하면 됩니다. 강제로 바꾸고 싶다면:
-- 메시지 맨 앞에 `/deep` 또는 `deep:`: 크기와 상관없이 풀 workflow;
-- `/quick` 또는 `quick:`: workflow 없이 바로 리프로 직행.
+따로 할 일은 없습니다. 평소처럼 에이전트에게 요청하세요. 레인을 강제로 지정하려면 메시지를 다음으로 시작합니다.
+- `/deep` 또는 `deep:`: 변경 규모와 상관없이 전체 workflow를 실행합니다.
+- `/quick` 또는 `quick:`: 모든 workflow를 건너뜁니다.
 
-Claude Code plugin이 없으면 `deep:`과 `quick:`은 agent가 알아채 주기만을 기대해야 합니다.
+Claude Code plugin이 없으면 `deep:`과 `quick:`은 에이전트가 이를 알아챘을 때만 작동합니다.
 
 | 변수 | 값 | 기본값 |
 |---|---|---|
 | `ROCKSTAR_ROUTER_TONE` | `rock`, `sober` | `rock` |
 
-## 🩹 알려진 한계
+## 알려진 한계
 
-- 라우팅은 prompt가 이끄는 모델의 판단이지, 하드 게이트가 아닙니다. 가끔 잘못 판단합니다.
-- 일부 pack은 skill이 볼 수 없는 방식으로 workflow를 강제합니다. router는 자기가 건너뛴 걸 이름으로 밝히니, 충돌을 찾아낼 수 있습니다.
-- 벤치마크는 Claude Code와 Sonnet에서만 했습니다. Codex CLI에서는 skill과 `AGENTS.md` 규칙이 모델 컨텍스트에 로드되는 것까지 확인했지만(`codex debug prompt-input`), 라우팅 동작 자체는 아직 측정하지 않았습니다. 다른 agent와 모델에서의 결과 제보 환영합니다.
+- 라우팅은 prompt를 바탕으로 모델이 내리는 판단이지, 강제 규칙이 아닙니다. 가끔 틀립니다.
+- 어떤 pack은 skill이 볼 수 없는 방식으로 workflow를 강제합니다. RockstarRouter는 건너뛴 skill의 이름을 알려 주므로, 충돌을 발견할 수 있습니다.
+- 벤치마크는 Claude Code와 Sonnet 조합에서만 했습니다. Codex CLI에서는 skill과 `AGENTS.md` 규칙이 모델 컨텍스트에 로드되는 것을 확인했지만(`codex debug prompt-input`), 라우팅 동작 자체는 아직 측정하지 않았습니다. 다른 에이전트와 모델에서의 결과를 환영합니다.
 
-## License
+## 라이선스
 
-MIT. 볼륨 올려.
+MIT
