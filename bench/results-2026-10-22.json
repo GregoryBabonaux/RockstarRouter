@@ -1,0 +1,3933 @@
+[
+ {
+  "id": 1,
+  "cfg": "bmad",
+  "skills": [],
+  "processed": 134297,
+  "generated": 520,
+  "turns": 3,
+  "files": 1,
+  "changed": [
+   "src/public/styles.css"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 1,
+  "cfg": "bmadrr",
+  "skills": [],
+  "processed": 297182,
+  "generated": 1072,
+  "turns": 7,
+  "files": 1,
+  "changed": [
+   "src/public/styles.css"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 1,
+  "cfg": "ecc",
+  "skills": [],
+  "processed": 277213,
+  "generated": 1126,
+  "turns": 5,
+  "files": 1,
+  "changed": [
+   "src/public/styles.css"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 1,
+  "cfg": "eccrr",
+  "skills": [],
+  "processed": 395063,
+  "generated": 1913,
+  "turns": 7,
+  "files": 1,
+  "changed": [
+   "src/public/styles.css"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 1,
+  "cfg": "sp",
+  "skills": [],
+  "processed": 159922,
+  "generated": 796,
+  "turns": 4,
+  "files": 1,
+  "changed": [
+   "src/public/styles.css"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 1,
+  "cfg": "spB",
+  "skills": [
+   "brainstorming"
+  ],
+  "processed": 173319,
+  "generated": 1070,
+  "turns": 5,
+  "files": 1,
+  "changed": [
+   "src/public/styles.css"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 1,
+  "cfg": "spk",
+  "skills": [],
+  "processed": 116569,
+  "generated": 488,
+  "turns": 3,
+  "files": 1,
+  "changed": [
+   "src/public/styles.css"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 1,
+  "cfg": "spkrr",
+  "skills": [],
+  "processed": 276768,
+  "generated": 1117,
+  "turns": 7,
+  "files": 1,
+  "changed": [
+   "src/public/styles.css"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 1,
+  "cfg": "sprr",
+  "skills": [],
+  "processed": 163766,
+  "generated": 1018,
+  "turns": 5,
+  "files": 1,
+  "changed": [
+   "src/public/styles.css"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 2,
+  "cfg": "bmad",
+  "skills": [],
+  "processed": 119164,
+  "generated": 324,
+  "turns": 3,
+  "files": 1,
+  "changed": [
+   "src/public/signup.html"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 2,
+  "cfg": "bmadrr",
+  "skills": [],
+  "processed": 162132,
+  "generated": 454,
+  "turns": 4,
+  "files": 1,
+  "changed": [
+   "src/public/signup.html"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 2,
+  "cfg": "ecc",
+  "skills": [],
+  "processed": 274901,
+  "generated": 868,
+  "turns": 5,
+  "files": 1,
+  "changed": [
+   "src/public/signup.html"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 2,
+  "cfg": "eccrr",
+  "skills": [],
+  "processed": 333760,
+  "generated": 1284,
+  "turns": 8,
+  "files": 1,
+  "changed": [
+   "src/public/signup.html"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 2,
+  "cfg": "sp",
+  "skills": [],
+  "processed": 118563,
+  "generated": 425,
+  "turns": 3,
+  "files": 1,
+  "changed": [
+   "src/public/signup.html"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 2,
+  "cfg": "spB",
+  "skills": [],
+  "processed": 118624,
+  "generated": 450,
+  "turns": 3,
+  "files": 1,
+  "changed": [
+   "src/public/signup.html"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 2,
+  "cfg": "spk",
+  "skills": [],
+  "processed": 113105,
+  "generated": 341,
+  "turns": 3,
+  "files": 1,
+  "changed": [
+   "src/public/signup.html"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 2,
+  "cfg": "spkrr",
+  "skills": [],
+  "processed": 153766,
+  "generated": 435,
+  "turns": 4,
+  "files": 1,
+  "changed": [
+   "src/public/signup.html"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 2,
+  "cfg": "sprr",
+  "skills": [],
+  "processed": 161253,
+  "generated": 575,
+  "turns": 5,
+  "files": 1,
+  "changed": [
+   "src/public/signup.html"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 3,
+  "cfg": "bmad",
+  "skills": [],
+  "processed": 125295,
+  "generated": 450,
+  "turns": 3,
+  "files": 1,
+  "changed": [
+   "src/config/logging.js"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 3,
+  "cfg": "bmadrr",
+  "skills": [
+   "rockstar-router"
+  ],
+  "processed": 216220,
+  "generated": 1492,
+  "turns": 6,
+  "files": 1,
+  "changed": [
+   "src/config/logging.js"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 3,
+  "cfg": "ecc",
+  "skills": [],
+  "processed": 163645,
+  "generated": 380,
+  "turns": 3,
+  "files": 1,
+  "changed": [
+   "src/config/logging.js"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 3,
+  "cfg": "eccrr",
+  "skills": [
+   "rockstar-router"
+  ],
+  "processed": 281719,
+  "generated": 1452,
+  "turns": 7,
+  "files": 1,
+  "changed": [
+   "src/config/logging.js"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 3,
+  "cfg": "sp",
+  "skills": [],
+  "processed": 119096,
+  "generated": 513,
+  "turns": 3,
+  "files": 1,
+  "changed": [
+   "src/config/logging.js"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 3,
+  "cfg": "spB",
+  "skills": [],
+  "processed": 118791,
+  "generated": 500,
+  "turns": 3,
+  "files": 1,
+  "changed": [
+   "src/config/logging.js"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 3,
+  "cfg": "spk",
+  "skills": [],
+  "processed": 153585,
+  "generated": 595,
+  "turns": 4,
+  "files": 1,
+  "changed": [
+   "src/config/logging.js"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 3,
+  "cfg": "spkrr",
+  "skills": [
+   "rockstar-router"
+  ],
+  "processed": 286987,
+  "generated": 1712,
+  "turns": 8,
+  "files": 1,
+  "changed": [
+   "src/config/logging.js"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 3,
+  "cfg": "sprr",
+  "skills": [
+   "rockstar-router"
+  ],
+  "processed": 249888,
+  "generated": 1425,
+  "turns": 7,
+  "files": 1,
+  "changed": [
+   "src/config/logging.js"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 4,
+  "cfg": "bmad",
+  "skills": [],
+  "processed": 376952,
+  "generated": 2462,
+  "turns": 11,
+  "files": 1,
+  "changed": [
+   "src/format.js"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 4,
+  "cfg": "bmadrr",
+  "skills": [],
+  "processed": 224093,
+  "generated": 1453,
+  "turns": 6,
+  "files": 1,
+  "changed": [
+   "src/format.js"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 4,
+  "cfg": "ecc",
+  "skills": [],
+  "processed": 274866,
+  "generated": 792,
+  "turns": 5,
+  "files": 1,
+  "changed": [
+   "src/format.js"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 4,
+  "cfg": "eccrr",
+  "skills": [],
+  "processed": 339651,
+  "generated": 2329,
+  "turns": 7,
+  "files": 1,
+  "changed": [
+   "src/format.js"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 4,
+  "cfg": "sp",
+  "skills": [
+   "systematic-debugging"
+  ],
+  "processed": 265753,
+  "generated": 2347,
+  "turns": 9,
+  "files": 2,
+  "changed": [
+   "src/format.js",
+   "test/format.test.js"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 4,
+  "cfg": "spB",
+  "skills": [
+   "systematic-debugging"
+  ],
+  "processed": 266625,
+  "generated": 2420,
+  "turns": 10,
+  "files": 2,
+  "changed": [
+   "src/format.js",
+   "test/format.test.js"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 4,
+  "cfg": "spk",
+  "skills": [],
+  "processed": 158392,
+  "generated": 1096,
+  "turns": 5,
+  "files": 1,
+  "changed": [
+   "src/format.js"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 4,
+  "cfg": "spkrr",
+  "skills": [],
+  "processed": 159035,
+  "generated": 1050,
+  "turns": 5,
+  "files": 1,
+  "changed": [
+   "src/format.js"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 4,
+  "cfg": "sprr",
+  "skills": [],
+  "processed": 163343,
+  "generated": 1176,
+  "turns": 5,
+  "files": 1,
+  "changed": [
+   "src/format.js"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 5,
+  "cfg": "bmad",
+  "skills": [],
+  "processed": 213109,
+  "generated": 1207,
+  "turns": 5,
+  "files": 1,
+  "changed": [
+   "src/public/settings.html"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 5,
+  "cfg": "bmadrr",
+  "skills": [],
+  "processed": 167925,
+  "generated": 919,
+  "turns": 4,
+  "files": 1,
+  "changed": [
+   "src/public/settings.html"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 5,
+  "cfg": "ecc",
+  "skills": [],
+  "processed": 277430,
+  "generated": 1791,
+  "turns": 6,
+  "files": 1,
+  "changed": [
+   "src/public/settings.html"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 5,
+  "cfg": "eccrr",
+  "skills": [],
+  "processed": 278410,
+  "generated": 1331,
+  "turns": 6,
+  "files": 1,
+  "changed": [
+   "src/public/settings.html"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 5,
+  "cfg": "sp",
+  "skills": [
+   "brainstorming"
+  ],
+  "processed": 217916,
+  "generated": 1422,
+  "turns": 7,
+  "files": 1,
+  "changed": [
+   "src/public/settings.html"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 5,
+  "cfg": "spB",
+  "skills": [
+   "brainstorming"
+  ],
+  "processed": 217634,
+  "generated": 1261,
+  "turns": 7,
+  "files": 1,
+  "changed": [
+   "src/public/settings.html"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 5,
+  "cfg": "spk",
+  "skills": [],
+  "processed": 154524,
+  "generated": 948,
+  "turns": 5,
+  "files": 1,
+  "changed": [
+   "src/public/settings.html"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 5,
+  "cfg": "spkrr",
+  "skills": [],
+  "processed": 197483,
+  "generated": 1224,
+  "turns": 5,
+  "files": 1,
+  "changed": [
+   "src/public/settings.html"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 5,
+  "cfg": "sprr",
+  "skills": [],
+  "processed": 162316,
+  "generated": 944,
+  "turns": 4,
+  "files": 1,
+  "changed": [
+   "src/public/settings.html"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 6,
+  "cfg": "bmad",
+  "skills": [],
+  "processed": 247292,
+  "generated": 1474,
+  "turns": 6,
+  "files": 2,
+  "changed": [
+   "src/routes/search.js",
+   "test/search.test.js"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 6,
+  "cfg": "bmadrr",
+  "skills": [],
+  "processed": 266267,
+  "generated": 1648,
+  "turns": 6,
+  "files": 2,
+  "changed": [
+   "src/routes/search.js",
+   "test/search.test.js"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 6,
+  "cfg": "ecc",
+  "skills": [],
+  "processed": 333803,
+  "generated": 1537,
+  "turns": 6,
+  "files": 2,
+  "changed": [
+   "src/routes/search.js",
+   "test/search.test.js"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 6,
+  "cfg": "eccrr",
+  "skills": [],
+  "processed": 337463,
+  "generated": 1650,
+  "turns": 6,
+  "files": 2,
+  "changed": [
+   "src/routes/search.js",
+   "test/search.test.js"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 6,
+  "cfg": "sp",
+  "skills": [
+   "systematic-debugging"
+  ],
+  "processed": 306473,
+  "generated": 1896,
+  "turns": 8,
+  "files": 2,
+  "changed": [
+   "src/routes/search.js",
+   "test/search.test.js"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 6,
+  "cfg": "spB",
+  "skills": [
+   "systematic-debugging"
+  ],
+  "processed": 259782,
+  "generated": 1479,
+  "turns": 7,
+  "files": 2,
+  "changed": [
+   "src/routes/search.js",
+   "test/search.test.js"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 6,
+  "cfg": "spk",
+  "skills": [],
+  "processed": 236589,
+  "generated": 1460,
+  "turns": 6,
+  "files": 2,
+  "changed": [
+   "src/routes/search.js",
+   "test/search.test.js"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 6,
+  "cfg": "spkrr",
+  "skills": [],
+  "processed": 241693,
+  "generated": 1628,
+  "turns": 6,
+  "files": 2,
+  "changed": [
+   "src/routes/search.js",
+   "test/search.test.js"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 6,
+  "cfg": "sprr",
+  "skills": [],
+  "processed": 162696,
+  "generated": 942,
+  "turns": 4,
+  "files": 2,
+  "changed": [
+   "src/routes/search.js",
+   "test/search.test.js"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 7,
+  "cfg": "bmad",
+  "skills": [
+   "bmad-build"
+  ],
+  "processed": 746660,
+  "generated": 5942,
+  "turns": 17,
+  "files": 0,
+  "changed": [],
+  "verdict": null
+ },
+ {
+  "id": 7,
+  "cfg": "bmadrr",
+  "skills": [],
+  "processed": 387524,
+  "generated": 1759,
+  "turns": 9,
+  "files": 2,
+  "changed": [
+   "src/routes/reports.js",
+   "test/reports.test.js"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 7,
+  "cfg": "ecc",
+  "skills": [],
+  "processed": 391282,
+  "generated": 1922,
+  "turns": 10,
+  "files": 2,
+  "changed": [
+   "src/routes/reports.js",
+   "test/reports.test.js"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 7,
+  "cfg": "eccrr",
+  "skills": [],
+  "processed": 221524,
+  "generated": 1011,
+  "turns": 4,
+  "files": 1,
+  "changed": [
+   "src/routes/reports.js"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 7,
+  "cfg": "sp",
+  "skills": [
+   "brainstorming"
+  ],
+  "processed": 172263,
+  "generated": 996,
+  "turns": 5,
+  "files": 0,
+  "changed": [],
+  "verdict": null
+ },
+ {
+  "id": 7,
+  "cfg": "spB",
+  "skills": [
+   "brainstorming"
+  ],
+  "processed": 172982,
+  "generated": 1236,
+  "turns": 5,
+  "files": 0,
+  "changed": [],
+  "verdict": null
+ },
+ {
+  "id": 7,
+  "cfg": "spk",
+  "skills": [],
+  "processed": 277603,
+  "generated": 1911,
+  "turns": 10,
+  "files": 2,
+  "changed": [
+   "src/routes/reports.js",
+   "test/reports.test.js"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 7,
+  "cfg": "spkrr",
+  "skills": [],
+  "processed": 282789,
+  "generated": 2129,
+  "turns": 8,
+  "files": 2,
+  "changed": [
+   "src/routes/reports.js",
+   "test/reports.test.js"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 7,
+  "cfg": "sprr",
+  "skills": [],
+  "processed": 163213,
+  "generated": 1250,
+  "turns": 4,
+  "files": 1,
+  "changed": [
+   "src/routes/reports.js"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 8,
+  "cfg": "bmad",
+  "skills": [],
+  "processed": 171124,
+  "generated": 1091,
+  "turns": 4,
+  "files": 0,
+  "changed": [],
+  "verdict": null
+ },
+ {
+  "id": 8,
+  "cfg": "bmadrr",
+  "skills": [],
+  "processed": 213363,
+  "generated": 1272,
+  "turns": 5,
+  "files": 0,
+  "changed": [],
+  "verdict": null
+ },
+ {
+  "id": 8,
+  "cfg": "ecc",
+  "skills": [],
+  "processed": 218599,
+  "generated": 744,
+  "turns": 4,
+  "files": 0,
+  "changed": [],
+  "verdict": null
+ },
+ {
+  "id": 8,
+  "cfg": "eccrr",
+  "skills": [],
+  "processed": 279552,
+  "generated": 1053,
+  "turns": 5,
+  "files": 0,
+  "changed": [],
+  "verdict": null
+ },
+ {
+  "id": 8,
+  "cfg": "sp",
+  "skills": [
+   "systematic-debugging"
+  ],
+  "processed": 263494,
+  "generated": 1349,
+  "turns": 7,
+  "files": 0,
+  "changed": [],
+  "verdict": null
+ },
+ {
+  "id": 8,
+  "cfg": "spB",
+  "skills": [
+   "systematic-debugging"
+  ],
+  "processed": 216184,
+  "generated": 1189,
+  "turns": 6,
+  "files": 0,
+  "changed": [],
+  "verdict": null
+ },
+ {
+  "id": 8,
+  "cfg": "spk",
+  "skills": [],
+  "processed": 157473,
+  "generated": 821,
+  "turns": 4,
+  "files": 0,
+  "changed": [],
+  "verdict": null
+ },
+ {
+  "id": 8,
+  "cfg": "spkrr",
+  "skills": [],
+  "processed": 159408,
+  "generated": 1056,
+  "turns": 4,
+  "files": 0,
+  "changed": [],
+  "verdict": null
+ },
+ {
+  "id": 8,
+  "cfg": "sprr",
+  "skills": [
+   "systematic-debugging"
+  ],
+  "processed": 219660,
+  "generated": 1387,
+  "turns": 6,
+  "files": 0,
+  "changed": [],
+  "verdict": null
+ },
+ {
+  "id": 9,
+  "cfg": "bmad",
+  "skills": [],
+  "processed": 170830,
+  "generated": 980,
+  "turns": 4,
+  "files": 2,
+  "changed": [
+   "src/db/schema.sql",
+   "src/db/store.js"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 9,
+  "cfg": "bmadrr",
+  "skills": [
+   "rockstar-router"
+  ],
+  "processed": 211139,
+  "generated": 1445,
+  "turns": 6,
+  "files": 0,
+  "changed": [],
+  "verdict": "DEEP"
+ },
+ {
+  "id": 9,
+  "cfg": "ecc",
+  "skills": [],
+  "processed": 220701,
+  "generated": 996,
+  "turns": 4,
+  "files": 2,
+  "changed": [
+   "src/db/schema.sql",
+   "src/db/store.js"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 9,
+  "cfg": "eccrr",
+  "skills": [
+   "rockstar-router"
+  ],
+  "processed": 167991,
+  "generated": 1175,
+  "turns": 4,
+  "files": 0,
+  "changed": [],
+  "verdict": "DEEP"
+ },
+ {
+  "id": 9,
+  "cfg": "sp",
+  "skills": [],
+  "processed": 245953,
+  "generated": 1601,
+  "turns": 6,
+  "files": 2,
+  "changed": [
+   "src/db/schema.sql",
+   "src/db/store.js"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 9,
+  "cfg": "spB",
+  "skills": [],
+  "processed": 161879,
+  "generated": 1023,
+  "turns": 4,
+  "files": 2,
+  "changed": [
+   "src/db/schema.sql",
+   "src/db/store.js"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 9,
+  "cfg": "spk",
+  "skills": [],
+  "processed": 113750,
+  "generated": 558,
+  "turns": 3,
+  "files": 2,
+  "changed": [
+   "src/db/schema.sql",
+   "src/db/store.js"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 9,
+  "cfg": "spkrr",
+  "skills": [
+   "rockstar-router"
+  ],
+  "processed": 160985,
+  "generated": 1390,
+  "turns": 5,
+  "files": 0,
+  "changed": [],
+  "verdict": null
+ },
+ {
+  "id": 9,
+  "cfg": "sprr",
+  "skills": [
+   "rockstar-router"
+  ],
+  "processed": 123364,
+  "generated": 958,
+  "turns": 4,
+  "files": 0,
+  "changed": [],
+  "verdict": "DEEP"
+ },
+ {
+  "id": 10,
+  "cfg": "bmad",
+  "skills": [
+   "bmad-build"
+  ],
+  "processed": 431599,
+  "generated": 4303,
+  "turns": 11,
+  "files": 1,
+  "changed": [
+   "_bmad-output/"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 10,
+  "cfg": "bmadrr",
+  "skills": [
+   "rockstar-router"
+  ],
+  "processed": 264953,
+  "generated": 2473,
+  "turns": 7,
+  "files": 0,
+  "changed": [],
+  "verdict": "DEEP"
+ },
+ {
+  "id": 10,
+  "cfg": "ecc",
+  "skills": [],
+  "processed": 338255,
+  "generated": 2700,
+  "turns": 6,
+  "files": 5,
+  "changed": [
+   "src/db/schema.sql",
+   "src/db/store.js",
+   "src/routes/invoices.js",
+   "src/routes/reports.js",
+   "test/invoices.test.js"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 10,
+  "cfg": "eccrr",
+  "skills": [
+   "rockstar-router"
+  ],
+  "processed": 227899,
+  "generated": 1941,
+  "turns": 5,
+  "files": 0,
+  "changed": [],
+  "verdict": "DEEP"
+ },
+ {
+  "id": 10,
+  "cfg": "sp",
+  "skills": [
+   "brainstorming"
+  ],
+  "processed": 172080,
+  "generated": 986,
+  "turns": 5,
+  "files": 0,
+  "changed": [],
+  "verdict": null
+ },
+ {
+  "id": 10,
+  "cfg": "spB",
+  "skills": [
+   "brainstorming"
+  ],
+  "processed": 172569,
+  "generated": 935,
+  "turns": 5,
+  "files": 0,
+  "changed": [],
+  "verdict": null
+ },
+ {
+  "id": 10,
+  "cfg": "spk",
+  "skills": [],
+  "processed": 245562,
+  "generated": 2949,
+  "turns": 6,
+  "files": 6,
+  "changed": [
+   "src/db/schema.sql",
+   "src/db/store.js",
+   "src/format.js",
+   "src/routes/invoices.js",
+   "src/routes/reports.js",
+   "test/invoices.test.js"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 10,
+  "cfg": "spkrr",
+  "skills": [
+   "rockstar-router"
+  ],
+  "processed": 206275,
+  "generated": 1821,
+  "turns": 6,
+  "files": 0,
+  "changed": [],
+  "verdict": "DEEP"
+ },
+ {
+  "id": 10,
+  "cfg": "sprr",
+  "skills": [
+   "rockstar-router",
+   "brainstorming"
+  ],
+  "processed": 219348,
+  "generated": 1433,
+  "turns": 7,
+  "files": 0,
+  "changed": [],
+  "verdict": null
+ },
+ {
+  "id": 11,
+  "cfg": "bmad",
+  "skills": [
+   "bmad-build"
+  ],
+  "processed": 431708,
+  "generated": 4262,
+  "turns": 12,
+  "files": 1,
+  "changed": [
+   "_bmad-output/"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 11,
+  "cfg": "bmadrr",
+  "skills": [
+   "rockstar-router"
+  ],
+  "processed": 178176,
+  "generated": 1794,
+  "turns": 5,
+  "files": 0,
+  "changed": [],
+  "verdict": null
+ },
+ {
+  "id": 11,
+  "cfg": "ecc",
+  "skills": [],
+  "processed": 400589,
+  "generated": 3941,
+  "turns": 7,
+  "files": 3,
+  "changed": [
+   "src/routes/session.js",
+   "src/jwt.js",
+   "test/session.test.js"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 11,
+  "cfg": "eccrr",
+  "skills": [
+   "rockstar-router"
+  ],
+  "processed": 227616,
+  "generated": 1676,
+  "turns": 5,
+  "files": 0,
+  "changed": [],
+  "verdict": null
+ },
+ {
+  "id": 11,
+  "cfg": "sp",
+  "skills": [
+   "brainstorming"
+  ],
+  "processed": 217619,
+  "generated": 1231,
+  "turns": 6,
+  "files": 0,
+  "changed": [],
+  "verdict": null
+ },
+ {
+  "id": 11,
+  "cfg": "spB",
+  "skills": [
+   "brainstorming"
+  ],
+  "processed": 172996,
+  "generated": 1372,
+  "turns": 5,
+  "files": 0,
+  "changed": [],
+  "verdict": null
+ },
+ {
+  "id": 11,
+  "cfg": "spk",
+  "skills": [],
+  "processed": 294254,
+  "generated": 3631,
+  "turns": 7,
+  "files": 3,
+  "changed": [
+   "src/routes/session.js",
+   "src/auth/",
+   "test/session.test.js"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 11,
+  "cfg": "spkrr",
+  "skills": [
+   "rockstar-router"
+  ],
+  "processed": 163072,
+  "generated": 1587,
+  "turns": 5,
+  "files": 0,
+  "changed": [],
+  "verdict": null
+ },
+ {
+  "id": 11,
+  "cfg": "sprr",
+  "skills": [
+   "rockstar-router",
+   "brainstorming"
+  ],
+  "processed": 223893,
+  "generated": 1698,
+  "turns": 7,
+  "files": 0,
+  "changed": [],
+  "verdict": null
+ },
+ {
+  "id": 12,
+  "cfg": "bmad",
+  "skills": [],
+  "processed": 212640,
+  "generated": 1050,
+  "turns": 5,
+  "files": 0,
+  "changed": [],
+  "verdict": null
+ },
+ {
+  "id": 12,
+  "cfg": "bmadrr",
+  "skills": [],
+  "processed": 211528,
+  "generated": 976,
+  "turns": 5,
+  "files": 0,
+  "changed": [],
+  "verdict": null
+ },
+ {
+  "id": 12,
+  "cfg": "ecc",
+  "skills": [],
+  "processed": 163670,
+  "generated": 622,
+  "turns": 3,
+  "files": 0,
+  "changed": [],
+  "verdict": null
+ },
+ {
+  "id": 12,
+  "cfg": "eccrr",
+  "skills": [],
+  "processed": 221270,
+  "generated": 950,
+  "turns": 4,
+  "files": 0,
+  "changed": [],
+  "verdict": null
+ },
+ {
+  "id": 12,
+  "cfg": "sp",
+  "skills": [],
+  "processed": 160257,
+  "generated": 1089,
+  "turns": 4,
+  "files": 0,
+  "changed": [],
+  "verdict": null
+ },
+ {
+  "id": 12,
+  "cfg": "spB",
+  "skills": [
+   "brainstorming"
+  ],
+  "processed": 217567,
+  "generated": 1100,
+  "turns": 6,
+  "files": 0,
+  "changed": [],
+  "verdict": null
+ },
+ {
+  "id": 12,
+  "cfg": "spk",
+  "skills": [],
+  "processed": 152210,
+  "generated": 820,
+  "turns": 4,
+  "files": 0,
+  "changed": [],
+  "verdict": null
+ },
+ {
+  "id": 12,
+  "cfg": "spkrr",
+  "skills": [],
+  "processed": 157128,
+  "generated": 799,
+  "turns": 5,
+  "files": 0,
+  "changed": [],
+  "verdict": null
+ },
+ {
+  "id": 12,
+  "cfg": "sprr",
+  "skills": [
+   "rockstar-router"
+  ],
+  "processed": 82023,
+  "generated": 570,
+  "turns": 3,
+  "files": 0,
+  "changed": [],
+  "verdict": "CLARIFY"
+ },
+ {
+  "id": 13,
+  "cfg": "bmad",
+  "skills": [],
+  "processed": 258786,
+  "generated": 1518,
+  "turns": 6,
+  "files": 1,
+  "changed": [
+   "src/public/signup.html"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 13,
+  "cfg": "bmadrr",
+  "skills": [
+   "rockstar-router"
+  ],
+  "processed": 82472,
+  "generated": 416,
+  "turns": 3,
+  "files": 0,
+  "changed": [],
+  "verdict": "CLARIFY"
+ },
+ {
+  "id": 13,
+  "cfg": "ecc",
+  "skills": [],
+  "processed": 391550,
+  "generated": 1943,
+  "turns": 8,
+  "files": 1,
+  "changed": [
+   "src/public/signup.html"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 13,
+  "cfg": "eccrr",
+  "skills": [
+   "rockstar-router"
+  ],
+  "processed": 111228,
+  "generated": 348,
+  "turns": 3,
+  "files": 0,
+  "changed": [],
+  "verdict": "CLARIFY"
+ },
+ {
+  "id": 13,
+  "cfg": "sp",
+  "skills": [
+   "brainstorming"
+  ],
+  "processed": 216917,
+  "generated": 892,
+  "turns": 6,
+  "files": 0,
+  "changed": [],
+  "verdict": null
+ },
+ {
+  "id": 13,
+  "cfg": "spB",
+  "skills": [
+   "brainstorming"
+  ],
+  "processed": 217006,
+  "generated": 1037,
+  "turns": 6,
+  "files": 0,
+  "changed": [],
+  "verdict": null
+ },
+ {
+  "id": 13,
+  "cfg": "spk",
+  "skills": [],
+  "processed": 198672,
+  "generated": 1576,
+  "turns": 5,
+  "files": 1,
+  "changed": [
+   "src/public/signup.html"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 13,
+  "cfg": "spkrr",
+  "skills": [
+   "rockstar-router"
+  ],
+  "processed": 78341,
+  "generated": 396,
+  "turns": 3,
+  "files": 0,
+  "changed": [],
+  "verdict": "CLARIFY"
+ },
+ {
+  "id": 13,
+  "cfg": "sprr",
+  "skills": [
+   "rockstar-router"
+  ],
+  "processed": 81772,
+  "generated": 391,
+  "turns": 3,
+  "files": 0,
+  "changed": [],
+  "verdict": "CLARIFY"
+ },
+ {
+  "id": 14,
+  "cfg": "bmad",
+  "skills": [],
+  "processed": 173425,
+  "generated": 817,
+  "turns": 4,
+  "files": 1,
+  "changed": [
+   "src/public/styles.css"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 14,
+  "cfg": "bmadrr",
+  "skills": [
+   "deep",
+   "rockstar-router",
+   "bmad-build"
+  ],
+  "processed": 919654,
+  "generated": 5880,
+  "turns": 23,
+  "files": 1,
+  "changed": [
+   "_bmad-output/"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 14,
+  "cfg": "ecc",
+  "skills": [],
+  "processed": 223344,
+  "generated": 1164,
+  "turns": 4,
+  "files": 1,
+  "changed": [
+   "src/public/styles.css"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 14,
+  "cfg": "eccrr",
+  "skills": [
+   "deep",
+   "rockstar-router",
+   "orch-change-feature"
+  ],
+  "processed": 231128,
+  "generated": 2116,
+  "turns": 8,
+  "files": 0,
+  "changed": [],
+  "verdict": null
+ },
+ {
+  "id": 14,
+  "cfg": "sp",
+  "skills": [],
+  "processed": 204114,
+  "generated": 976,
+  "turns": 5,
+  "files": 1,
+  "changed": [
+   "src/public/styles.css"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 14,
+  "cfg": "spB",
+  "skills": [],
+  "processed": 121304,
+  "generated": 666,
+  "turns": 3,
+  "files": 1,
+  "changed": [
+   "src/public/styles.css"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 14,
+  "cfg": "spk",
+  "skills": [],
+  "processed": 117913,
+  "generated": 616,
+  "turns": 3,
+  "files": 1,
+  "changed": [
+   "src/public/styles.css"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 14,
+  "cfg": "spkrr",
+  "skills": [
+   "deep",
+   "rockstar-router",
+   "speckit-specify"
+  ],
+  "processed": 362527,
+  "generated": 4213,
+  "turns": 11,
+  "files": 1,
+  "changed": [
+   "specs/"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 14,
+  "cfg": "sprr",
+  "skills": [
+   "deep",
+   "rockstar-router",
+   "brainstorming"
+  ],
+  "processed": 317861,
+  "generated": 1761,
+  "turns": 10,
+  "files": 1,
+  "changed": [
+   "src/public/styles.css"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 1,
+  "cfg": "bmadrr3",
+  "skills": [],
+  "processed": 168506,
+  "generated": 795,
+  "turns": 4,
+  "files": 1,
+  "changed": [
+   "src/public/styles.css"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 1,
+  "cfg": "eccrr3",
+  "skills": [],
+  "processed": 222019,
+  "generated": 767,
+  "turns": 4,
+  "files": 1,
+  "changed": [
+   "src/public/styles.css"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 1,
+  "cfg": "spkrr3",
+  "skills": [],
+  "processed": 157382,
+  "generated": 723,
+  "turns": 4,
+  "files": 1,
+  "changed": [
+   "src/public/styles.css"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 1,
+  "cfg": "sprr3",
+  "skills": [],
+  "processed": 162620,
+  "generated": 664,
+  "turns": 4,
+  "files": 1,
+  "changed": [
+   "src/public/styles.css"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 2,
+  "cfg": "bmadrr3",
+  "skills": [],
+  "processed": 162535,
+  "generated": 481,
+  "turns": 4,
+  "files": 1,
+  "changed": [
+   "src/public/signup.html"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 2,
+  "cfg": "eccrr3",
+  "skills": [],
+  "processed": 220373,
+  "generated": 493,
+  "turns": 4,
+  "files": 1,
+  "changed": [
+   "src/public/signup.html"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 2,
+  "cfg": "spkrr3",
+  "skills": [],
+  "processed": 154339,
+  "generated": 460,
+  "turns": 4,
+  "files": 1,
+  "changed": [
+   "src/public/signup.html"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 2,
+  "cfg": "sprr3",
+  "skills": [],
+  "processed": 161449,
+  "generated": 526,
+  "turns": 4,
+  "files": 1,
+  "changed": [
+   "src/public/signup.html"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 3,
+  "cfg": "bmadrr3",
+  "skills": [
+   "rockstar-router"
+  ],
+  "processed": 210721,
+  "generated": 1338,
+  "turns": 6,
+  "files": 1,
+  "changed": [
+   "src/config/logging.js"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 3,
+  "cfg": "eccrr3",
+  "skills": [
+   "rockstar-router"
+  ],
+  "processed": 281773,
+  "generated": 1490,
+  "turns": 7,
+  "files": 1,
+  "changed": [
+   "src/config/logging.js"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 3,
+  "cfg": "spkrr3",
+  "skills": [
+   "rockstar-router"
+  ],
+  "processed": 201373,
+  "generated": 1414,
+  "turns": 7,
+  "files": 1,
+  "changed": [
+   "src/config/logging.js"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 3,
+  "cfg": "sprr3",
+  "skills": [
+   "rockstar-router"
+  ],
+  "processed": 208004,
+  "generated": 1416,
+  "turns": 7,
+  "files": 1,
+  "changed": [
+   "src/config/logging.js"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 4,
+  "cfg": "bmadrr3",
+  "skills": [],
+  "processed": 168042,
+  "generated": 1170,
+  "turns": 4,
+  "files": 1,
+  "changed": [
+   "src/format.js"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 4,
+  "cfg": "eccrr3",
+  "skills": [],
+  "processed": 222879,
+  "generated": 1011,
+  "turns": 4,
+  "files": 1,
+  "changed": [
+   "src/format.js"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 4,
+  "cfg": "spkrr3",
+  "skills": [],
+  "processed": 120045,
+  "generated": 774,
+  "turns": 3,
+  "files": 1,
+  "changed": [
+   "src/format.js"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 4,
+  "cfg": "sprr3",
+  "skills": [],
+  "processed": 162983,
+  "generated": 1023,
+  "turns": 5,
+  "files": 1,
+  "changed": [
+   "src/format.js"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 5,
+  "cfg": "bmadrr3",
+  "skills": [],
+  "processed": 171967,
+  "generated": 888,
+  "turns": 4,
+  "files": 1,
+  "changed": [
+   "src/public/settings.html"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 5,
+  "cfg": "eccrr3",
+  "skills": [],
+  "processed": 221450,
+  "generated": 901,
+  "turns": 4,
+  "files": 1,
+  "changed": [
+   "src/public/settings.html"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 5,
+  "cfg": "spkrr3",
+  "skills": [],
+  "processed": 154696,
+  "generated": 754,
+  "turns": 4,
+  "files": 1,
+  "changed": [
+   "src/public/settings.html"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 5,
+  "cfg": "sprr3",
+  "skills": [],
+  "processed": 162491,
+  "generated": 893,
+  "turns": 4,
+  "files": 1,
+  "changed": [
+   "src/public/settings.html"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 6,
+  "cfg": "bmadrr3",
+  "skills": [],
+  "processed": 257982,
+  "generated": 1403,
+  "turns": 6,
+  "files": 2,
+  "changed": [
+   "src/routes/search.js",
+   "test/search.test.js"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 6,
+  "cfg": "eccrr3",
+  "skills": [],
+  "processed": 336896,
+  "generated": 1499,
+  "turns": 6,
+  "files": 1,
+  "changed": [
+   "src/routes/search.js"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 6,
+  "cfg": "spkrr3",
+  "skills": [],
+  "processed": 240989,
+  "generated": 1485,
+  "turns": 6,
+  "files": 2,
+  "changed": [
+   "src/routes/search.js",
+   "test/search.test.js"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 6,
+  "cfg": "sprr3",
+  "skills": [],
+  "processed": 289707,
+  "generated": 1508,
+  "turns": 7,
+  "files": 1,
+  "changed": [
+   "src/routes/search.js"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 7,
+  "cfg": "bmadrr3",
+  "skills": [],
+  "processed": 310032,
+  "generated": 1815,
+  "turns": 7,
+  "files": 2,
+  "changed": [
+   "src/routes/reports.js",
+   "test/reports.test.js"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 7,
+  "cfg": "eccrr3",
+  "skills": [],
+  "processed": 456014,
+  "generated": 2547,
+  "turns": 10,
+  "files": 1,
+  "changed": [
+   "src/routes/reports.js"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 7,
+  "cfg": "spkrr3",
+  "skills": [],
+  "processed": 281686,
+  "generated": 1789,
+  "turns": 8,
+  "files": 2,
+  "changed": [
+   "src/routes/reports.js",
+   "test/reports.test.js"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 7,
+  "cfg": "sprr3",
+  "skills": [],
+  "processed": 246924,
+  "generated": 1294,
+  "turns": 6,
+  "files": 1,
+  "changed": [
+   "src/routes/reports.js"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 8,
+  "cfg": "bmadrr3",
+  "skills": [],
+  "processed": 218398,
+  "generated": 1090,
+  "turns": 5,
+  "files": 0,
+  "changed": [],
+  "verdict": null
+ },
+ {
+  "id": 8,
+  "cfg": "eccrr3",
+  "skills": [],
+  "processed": 279986,
+  "generated": 1200,
+  "turns": 5,
+  "files": 0,
+  "changed": [],
+  "verdict": null
+ },
+ {
+  "id": 8,
+  "cfg": "spkrr3",
+  "skills": [],
+  "processed": 200066,
+  "generated": 1216,
+  "turns": 5,
+  "files": 0,
+  "changed": [],
+  "verdict": null
+ },
+ {
+  "id": 8,
+  "cfg": "sprr3",
+  "skills": [],
+  "processed": 163669,
+  "generated": 983,
+  "turns": 4,
+  "files": 0,
+  "changed": [],
+  "verdict": null
+ },
+ {
+  "id": 9,
+  "cfg": "bmadrr3",
+  "skills": [
+   "rockstar-router"
+  ],
+  "processed": 127112,
+  "generated": 1100,
+  "turns": 4,
+  "files": 0,
+  "changed": [],
+  "verdict": "DEEP"
+ },
+ {
+  "id": 9,
+  "cfg": "eccrr3",
+  "skills": [
+   "rockstar-router"
+  ],
+  "processed": 168179,
+  "generated": 1163,
+  "turns": 4,
+  "files": 0,
+  "changed": [],
+  "verdict": "DEEP"
+ },
+ {
+  "id": 9,
+  "cfg": "spkrr3",
+  "skills": [
+   "rockstar-router"
+  ],
+  "processed": 117939,
+  "generated": 864,
+  "turns": 4,
+  "files": 0,
+  "changed": [],
+  "verdict": "DEEP"
+ },
+ {
+  "id": 9,
+  "cfg": "sprr3",
+  "skills": [
+   "rockstar-router"
+  ],
+  "processed": 163917,
+  "generated": 1097,
+  "turns": 5,
+  "files": 0,
+  "changed": [],
+  "verdict": "DEEP"
+ },
+ {
+  "id": 10,
+  "cfg": "bmadrr3",
+  "skills": [
+   "rockstar-router",
+   "bmad-build"
+  ],
+  "processed": 567943,
+  "generated": 6165,
+  "turns": 14,
+  "files": 1,
+  "changed": [
+   "_bmad-output/"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 10,
+  "cfg": "eccrr3",
+  "skills": [
+   "rockstar-router"
+  ],
+  "processed": 228527,
+  "generated": 1865,
+  "turns": 5,
+  "files": 0,
+  "changed": [],
+  "verdict": "DEEP"
+ },
+ {
+  "id": 10,
+  "cfg": "spkrr3",
+  "skills": [
+   "rockstar-router",
+   "speckit-specify"
+  ],
+  "processed": 327871,
+  "generated": 5647,
+  "turns": 9,
+  "files": 1,
+  "changed": [
+   "specs/"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 10,
+  "cfg": "sprr3",
+  "skills": [
+   "rockstar-router",
+   "brainstorming"
+  ],
+  "processed": 214183,
+  "generated": 1845,
+  "turns": 8,
+  "files": 0,
+  "changed": [],
+  "verdict": null
+ },
+ {
+  "id": 11,
+  "cfg": "bmadrr3",
+  "skills": [
+   "rockstar-router"
+  ],
+  "processed": 225241,
+  "generated": 1937,
+  "turns": 6,
+  "files": 0,
+  "changed": [],
+  "verdict": null
+ },
+ {
+  "id": 11,
+  "cfg": "eccrr3",
+  "skills": [
+   "rockstar-router"
+  ],
+  "processed": 226985,
+  "generated": 2026,
+  "turns": 5,
+  "files": 0,
+  "changed": [],
+  "verdict": null
+ },
+ {
+  "id": 11,
+  "cfg": "spkrr3",
+  "skills": [
+   "rockstar-router"
+  ],
+  "processed": 163634,
+  "generated": 1743,
+  "turns": 5,
+  "files": 0,
+  "changed": [],
+  "verdict": null
+ },
+ {
+  "id": 11,
+  "cfg": "sprr3",
+  "skills": [
+   "rockstar-router",
+   "brainstorming"
+  ],
+  "processed": 224543,
+  "generated": 1785,
+  "turns": 7,
+  "files": 0,
+  "changed": [],
+  "verdict": null
+ },
+ {
+  "id": 12,
+  "cfg": "bmadrr3",
+  "skills": [],
+  "processed": 211331,
+  "generated": 1057,
+  "turns": 5,
+  "files": 0,
+  "changed": [],
+  "verdict": null
+ },
+ {
+  "id": 12,
+  "cfg": "eccrr3",
+  "skills": [],
+  "processed": 221237,
+  "generated": 733,
+  "turns": 5,
+  "files": 0,
+  "changed": [],
+  "verdict": null
+ },
+ {
+  "id": 12,
+  "cfg": "spkrr3",
+  "skills": [],
+  "processed": 157411,
+  "generated": 944,
+  "turns": 4,
+  "files": 0,
+  "changed": [],
+  "verdict": null
+ },
+ {
+  "id": 12,
+  "cfg": "sprr3",
+  "skills": [],
+  "processed": 121474,
+  "generated": 650,
+  "turns": 4,
+  "files": 0,
+  "changed": [],
+  "verdict": null
+ },
+ {
+  "id": 13,
+  "cfg": "bmadrr3",
+  "skills": [],
+  "processed": 259701,
+  "generated": 1473,
+  "turns": 6,
+  "files": 1,
+  "changed": [
+   "src/public/signup.html"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 13,
+  "cfg": "eccrr3",
+  "skills": [],
+  "processed": 223371,
+  "generated": 981,
+  "turns": 4,
+  "files": 0,
+  "changed": [],
+  "verdict": null
+ },
+ {
+  "id": 13,
+  "cfg": "spkrr3",
+  "skills": [],
+  "processed": 200696,
+  "generated": 1525,
+  "turns": 5,
+  "files": 2,
+  "changed": [
+   "src/public/signup.html",
+   "src/public/styles.css"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 13,
+  "cfg": "sprr3",
+  "skills": [
+   "rockstar-router"
+  ],
+  "processed": 123143,
+  "generated": 915,
+  "turns": 4,
+  "files": 0,
+  "changed": [],
+  "verdict": "CLARIFY"
+ },
+ {
+  "id": 14,
+  "cfg": "bmadrr3",
+  "skills": [],
+  "processed": 213894,
+  "generated": 1234,
+  "turns": 6,
+  "files": 1,
+  "changed": [
+   "src/public/styles.css"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 14,
+  "cfg": "eccrr3",
+  "skills": [
+   "deep",
+   "rockstar-router",
+   "orch-change-feature"
+  ],
+  "processed": 347393,
+  "generated": 2097,
+  "turns": 10,
+  "files": 0,
+  "changed": [],
+  "verdict": null
+ },
+ {
+  "id": 14,
+  "cfg": "spkrr3",
+  "skills": [],
+  "processed": 121104,
+  "generated": 866,
+  "turns": 3,
+  "files": 1,
+  "changed": [
+   "src/public/styles.css"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 14,
+  "cfg": "sprr3",
+  "skills": [
+   "deep",
+   "rockstar-router",
+   "brainstorming"
+  ],
+  "processed": 270354,
+  "generated": 1795,
+  "turns": 10,
+  "files": 1,
+  "changed": [
+   "src/public/styles.css"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 1,
+  "cfg": "aos",
+  "skills": [],
+  "processed": 151802,
+  "generated": 787,
+  "turns": 4,
+  "files": 1,
+  "changed": [
+   "src/public/styles.css"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 1,
+  "cfg": "aosrr",
+  "skills": [],
+  "processed": 116212,
+  "generated": 556,
+  "turns": 3,
+  "files": 1,
+  "changed": [
+   "src/public/styles.css"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 1,
+  "cfg": "ccsdd",
+  "skills": [],
+  "processed": 161161,
+  "generated": 713,
+  "turns": 4,
+  "files": 1,
+  "changed": [
+   "src/public/styles.css"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 1,
+  "cfg": "ccsddrr",
+  "skills": [],
+  "processed": 125086,
+  "generated": 639,
+  "turns": 3,
+  "files": 1,
+  "changed": [
+   "src/public/styles.css"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 1,
+  "cfg": "ce",
+  "skills": [],
+  "processed": 120165,
+  "generated": 508,
+  "turns": 3,
+  "files": 1,
+  "changed": [
+   "src/public/styles.css"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 1,
+  "cfg": "cerr",
+  "skills": [],
+  "processed": 123133,
+  "generated": 641,
+  "turns": 3,
+  "files": 1,
+  "changed": [
+   "src/public/styles.css"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 1,
+  "cfg": "osp",
+  "skills": [],
+  "processed": 154573,
+  "generated": 649,
+  "turns": 4,
+  "files": 1,
+  "changed": [
+   "src/public/styles.css"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 1,
+  "cfg": "osprr",
+  "skills": [],
+  "processed": 158360,
+  "generated": 740,
+  "turns": 4,
+  "files": 1,
+  "changed": [
+   "src/public/styles.css"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 2,
+  "cfg": "aos",
+  "skills": [],
+  "processed": 112065,
+  "generated": 342,
+  "turns": 3,
+  "files": 1,
+  "changed": [
+   "src/public/signup.html"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 2,
+  "cfg": "aosrr",
+  "skills": [],
+  "processed": 153410,
+  "generated": 467,
+  "turns": 4,
+  "files": 1,
+  "changed": [
+   "src/public/signup.html"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 2,
+  "cfg": "ccsdd",
+  "skills": [],
+  "processed": 118717,
+  "generated": 339,
+  "turns": 3,
+  "files": 1,
+  "changed": [
+   "src/public/signup.html"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 2,
+  "cfg": "ccsddrr",
+  "skills": [],
+  "processed": 162341,
+  "generated": 465,
+  "turns": 4,
+  "files": 1,
+  "changed": [
+   "src/public/signup.html"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 2,
+  "cfg": "ce",
+  "skills": [],
+  "processed": 119071,
+  "generated": 317,
+  "turns": 3,
+  "files": 1,
+  "changed": [
+   "src/public/signup.html"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 2,
+  "cfg": "cerr",
+  "skills": [],
+  "processed": 162822,
+  "generated": 453,
+  "turns": 4,
+  "files": 1,
+  "changed": [
+   "src/public/signup.html"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 2,
+  "cfg": "osp",
+  "skills": [],
+  "processed": 114089,
+  "generated": 332,
+  "turns": 3,
+  "files": 1,
+  "changed": [
+   "src/public/signup.html"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 2,
+  "cfg": "osprr",
+  "skills": [],
+  "processed": 195731,
+  "generated": 610,
+  "turns": 5,
+  "files": 1,
+  "changed": [
+   "src/public/signup.html"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 3,
+  "cfg": "aos",
+  "skills": [],
+  "processed": 150699,
+  "generated": 558,
+  "turns": 4,
+  "files": 1,
+  "changed": [
+   "src/config/logging.js"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 3,
+  "cfg": "aosrr",
+  "skills": [
+   "rockstar-router"
+  ],
+  "processed": 198650,
+  "generated": 1481,
+  "turns": 7,
+  "files": 1,
+  "changed": [
+   "src/config/logging.js"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 3,
+  "cfg": "ccsdd",
+  "skills": [],
+  "processed": 159892,
+  "generated": 472,
+  "turns": 4,
+  "files": 1,
+  "changed": [
+   "src/config/logging.js"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 3,
+  "cfg": "ccsddrr",
+  "skills": [
+   "rockstar-router"
+  ],
+  "processed": 209409,
+  "generated": 1061,
+  "turns": 6,
+  "files": 1,
+  "changed": [
+   "src/config/logging.js"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 3,
+  "cfg": "ce",
+  "skills": [],
+  "processed": 119784,
+  "generated": 498,
+  "turns": 3,
+  "files": 1,
+  "changed": [
+   "src/config/logging.js"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 3,
+  "cfg": "cerr",
+  "skills": [
+   "rockstar-router"
+  ],
+  "processed": 210758,
+  "generated": 1624,
+  "turns": 8,
+  "files": 1,
+  "changed": [
+   "src/config/logging.js"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 3,
+  "cfg": "osp",
+  "skills": [],
+  "processed": 115150,
+  "generated": 420,
+  "turns": 3,
+  "files": 1,
+  "changed": [
+   "src/config/logging.js"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 3,
+  "cfg": "osprr",
+  "skills": [
+   "rockstar-router"
+  ],
+  "processed": 202115,
+  "generated": 1281,
+  "turns": 7,
+  "files": 1,
+  "changed": [
+   "src/config/logging.js"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 4,
+  "cfg": "aos",
+  "skills": [],
+  "processed": 151785,
+  "generated": 754,
+  "turns": 4,
+  "files": 1,
+  "changed": [
+   "src/format.js"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 4,
+  "cfg": "aosrr",
+  "skills": [],
+  "processed": 155700,
+  "generated": 1020,
+  "turns": 5,
+  "files": 1,
+  "changed": [
+   "src/format.js"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 4,
+  "cfg": "ccsdd",
+  "skills": [],
+  "processed": 159539,
+  "generated": 752,
+  "turns": 4,
+  "files": 1,
+  "changed": [
+   "src/format.js"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 4,
+  "cfg": "ccsddrr",
+  "skills": [],
+  "processed": 167374,
+  "generated": 957,
+  "turns": 4,
+  "files": 1,
+  "changed": [
+   "src/format.js"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 4,
+  "cfg": "ce",
+  "skills": [],
+  "processed": 120160,
+  "generated": 688,
+  "turns": 3,
+  "files": 1,
+  "changed": [
+   "src/format.js"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 4,
+  "cfg": "cerr",
+  "skills": [],
+  "processed": 123474,
+  "generated": 938,
+  "turns": 4,
+  "files": 1,
+  "changed": [
+   "src/format.js"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 4,
+  "cfg": "osp",
+  "skills": [],
+  "processed": 156493,
+  "generated": 1056,
+  "turns": 5,
+  "files": 1,
+  "changed": [
+   "src/format.js"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 4,
+  "cfg": "osprr",
+  "skills": [],
+  "processed": 197976,
+  "generated": 837,
+  "turns": 5,
+  "files": 1,
+  "changed": [
+   "src/format.js"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 5,
+  "cfg": "aos",
+  "skills": [],
+  "processed": 190373,
+  "generated": 1039,
+  "turns": 5,
+  "files": 1,
+  "changed": [
+   "src/public/settings.html"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 5,
+  "cfg": "aosrr",
+  "skills": [],
+  "processed": 154876,
+  "generated": 881,
+  "turns": 4,
+  "files": 1,
+  "changed": [
+   "src/public/settings.html"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 5,
+  "cfg": "ccsdd",
+  "skills": [],
+  "processed": 203439,
+  "generated": 1199,
+  "turns": 6,
+  "files": 1,
+  "changed": [
+   "src/public/settings.html"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 5,
+  "cfg": "ccsddrr",
+  "skills": [],
+  "processed": 167297,
+  "generated": 936,
+  "turns": 4,
+  "files": 1,
+  "changed": [
+   "src/public/settings.html"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 5,
+  "cfg": "ce",
+  "skills": [],
+  "processed": 161094,
+  "generated": 1042,
+  "turns": 5,
+  "files": 1,
+  "changed": [
+   "src/public/settings.html"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 5,
+  "cfg": "cerr",
+  "skills": [],
+  "processed": 164009,
+  "generated": 916,
+  "turns": 4,
+  "files": 1,
+  "changed": [
+   "src/public/settings.html"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 5,
+  "cfg": "osp",
+  "skills": [],
+  "processed": 155098,
+  "generated": 996,
+  "turns": 5,
+  "files": 1,
+  "changed": [
+   "src/public/settings.html"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 5,
+  "cfg": "osprr",
+  "skills": [],
+  "processed": 158110,
+  "generated": 877,
+  "turns": 4,
+  "files": 1,
+  "changed": [
+   "src/public/settings.html"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 6,
+  "cfg": "aos",
+  "skills": [],
+  "processed": 231834,
+  "generated": 1413,
+  "turns": 6,
+  "files": 2,
+  "changed": [
+   "src/routes/search.js",
+   "test/search.test.js"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 6,
+  "cfg": "aosrr",
+  "skills": [],
+  "processed": 277467,
+  "generated": 1701,
+  "turns": 7,
+  "files": 2,
+  "changed": [
+   "src/routes/search.js",
+   "test/search.test.js"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 6,
+  "cfg": "ccsdd",
+  "skills": [],
+  "processed": 288340,
+  "generated": 1436,
+  "turns": 7,
+  "files": 2,
+  "changed": [
+   "src/routes/search.js",
+   "test/search.test.js"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 6,
+  "cfg": "ccsddrr",
+  "skills": [],
+  "processed": 295423,
+  "generated": 2048,
+  "turns": 9,
+  "files": 2,
+  "changed": [
+   "src/routes/search.js",
+   "test/search.test.js"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 6,
+  "cfg": "ce",
+  "skills": [],
+  "processed": 161265,
+  "generated": 1015,
+  "turns": 4,
+  "files": 2,
+  "changed": [
+   "src/routes/search.js",
+   "test/search.test.js"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 6,
+  "cfg": "cerr",
+  "skills": [],
+  "processed": 251088,
+  "generated": 1579,
+  "turns": 6,
+  "files": 1,
+  "changed": [
+   "src/routes/search.js"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 6,
+  "cfg": "osp",
+  "skills": [],
+  "processed": 236977,
+  "generated": 1514,
+  "turns": 6,
+  "files": 2,
+  "changed": [
+   "src/routes/search.js",
+   "test/search.test.js"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 6,
+  "cfg": "osprr",
+  "skills": [],
+  "processed": 242186,
+  "generated": 1415,
+  "turns": 6,
+  "files": 2,
+  "changed": [
+   "src/routes/search.js",
+   "test/search.test.js"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 7,
+  "cfg": "aos",
+  "skills": [],
+  "processed": 269952,
+  "generated": 1417,
+  "turns": 7,
+  "files": 2,
+  "changed": [
+   "src/routes/reports.js",
+   "test/reports.test.js"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 7,
+  "cfg": "aosrr",
+  "skills": [],
+  "processed": 237527,
+  "generated": 1717,
+  "turns": 6,
+  "files": 2,
+  "changed": [
+   "src/routes/reports.js",
+   "test/reports.test.js"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 7,
+  "cfg": "ccsdd",
+  "skills": [],
+  "processed": 250838,
+  "generated": 1620,
+  "turns": 6,
+  "files": 2,
+  "changed": [
+   "src/routes/reports.js",
+   "test/reports.test.js"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 7,
+  "cfg": "ccsddrr",
+  "skills": [],
+  "processed": 300690,
+  "generated": 1900,
+  "turns": 9,
+  "files": 2,
+  "changed": [
+   "src/routes/reports.js",
+   "test/reports.test.js"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 7,
+  "cfg": "ce",
+  "skills": [],
+  "processed": 287245,
+  "generated": 1807,
+  "turns": 8,
+  "files": 2,
+  "changed": [
+   "src/routes/reports.js",
+   "test/reports.test.js"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 7,
+  "cfg": "cerr",
+  "skills": [],
+  "processed": 294508,
+  "generated": 1976,
+  "turns": 9,
+  "files": 2,
+  "changed": [
+   "src/routes/reports.js",
+   "test/reports.test.js"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 7,
+  "cfg": "osp",
+  "skills": [],
+  "processed": 236643,
+  "generated": 1523,
+  "turns": 6,
+  "files": 2,
+  "changed": [
+   "src/routes/reports.js",
+   "test/reports.test.js"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 7,
+  "cfg": "osprr",
+  "skills": [],
+  "processed": 243323,
+  "generated": 1937,
+  "turns": 6,
+  "files": 2,
+  "changed": [
+   "src/routes/reports.js",
+   "test/reports.test.js"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 8,
+  "cfg": "aos",
+  "skills": [],
+  "processed": 191712,
+  "generated": 954,
+  "turns": 5,
+  "files": 0,
+  "changed": [],
+  "verdict": null
+ },
+ {
+  "id": 8,
+  "cfg": "aosrr",
+  "skills": [],
+  "processed": 198110,
+  "generated": 1061,
+  "turns": 5,
+  "files": 0,
+  "changed": [],
+  "verdict": null
+ },
+ {
+  "id": 8,
+  "cfg": "ccsdd",
+  "skills": [],
+  "processed": 211396,
+  "generated": 1130,
+  "turns": 5,
+  "files": 0,
+  "changed": [],
+  "verdict": null
+ },
+ {
+  "id": 8,
+  "cfg": "ccsddrr",
+  "skills": [],
+  "processed": 215638,
+  "generated": 1004,
+  "turns": 5,
+  "files": 0,
+  "changed": [],
+  "verdict": null
+ },
+ {
+  "id": 8,
+  "cfg": "ce",
+  "skills": [],
+  "processed": 202221,
+  "generated": 1091,
+  "turns": 5,
+  "files": 0,
+  "changed": [],
+  "verdict": null
+ },
+ {
+  "id": 8,
+  "cfg": "cerr",
+  "skills": [],
+  "processed": 208043,
+  "generated": 1354,
+  "turns": 5,
+  "files": 0,
+  "changed": [],
+  "verdict": null
+ },
+ {
+  "id": 8,
+  "cfg": "osp",
+  "skills": [],
+  "processed": 195631,
+  "generated": 814,
+  "turns": 5,
+  "files": 0,
+  "changed": [],
+  "verdict": null
+ },
+ {
+  "id": 8,
+  "cfg": "osprr",
+  "skills": [],
+  "processed": 204889,
+  "generated": 1377,
+  "turns": 5,
+  "files": 0,
+  "changed": [],
+  "verdict": null
+ },
+ {
+  "id": 9,
+  "cfg": "aos",
+  "skills": [],
+  "processed": 153160,
+  "generated": 915,
+  "turns": 4,
+  "files": 2,
+  "changed": [
+   "src/db/schema.sql",
+   "src/db/store.js"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 9,
+  "cfg": "aosrr",
+  "skills": [
+   "rockstar-router",
+   "shape-spec"
+  ],
+  "processed": 162019,
+  "generated": 1471,
+  "turns": 6,
+  "files": 0,
+  "changed": [],
+  "verdict": null
+ },
+ {
+  "id": 9,
+  "cfg": "ccsdd",
+  "skills": [],
+  "processed": 206527,
+  "generated": 1067,
+  "turns": 5,
+  "files": 2,
+  "changed": [
+   "src/db/schema.sql",
+   "src/db/store.js"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 9,
+  "cfg": "ccsddrr",
+  "skills": [
+   "rockstar-router"
+  ],
+  "processed": 313208,
+  "generated": 2391,
+  "turns": 8,
+  "files": 2,
+  "changed": [
+   "src/db/schema.sql",
+   "src/db/store.js"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 9,
+  "cfg": "ce",
+  "skills": [],
+  "processed": 162237,
+  "generated": 982,
+  "turns": 4,
+  "files": 2,
+  "changed": [
+   "src/db/schema.sql",
+   "src/db/store.js"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 9,
+  "cfg": "cerr",
+  "skills": [
+   "rockstar-router",
+   "ce-work"
+  ],
+  "processed": 787082,
+  "generated": 5324,
+  "turns": 21,
+  "files": 0,
+  "changed": [],
+  "verdict": null
+ },
+ {
+  "id": 9,
+  "cfg": "osp",
+  "skills": [],
+  "processed": 155896,
+  "generated": 845,
+  "turns": 4,
+  "files": 2,
+  "changed": [
+   "src/db/schema.sql",
+   "src/db/store.js"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 9,
+  "cfg": "osprr",
+  "skills": [
+   "rockstar-router"
+  ],
+  "processed": 385762,
+  "generated": 2923,
+  "turns": 12,
+  "files": 2,
+  "changed": [
+   "src/db/schema.sql",
+   "src/db/store.js"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 10,
+  "cfg": "aos",
+  "skills": [],
+  "processed": 314981,
+  "generated": 2521,
+  "turns": 8,
+  "files": 6,
+  "changed": [
+   "src/db/schema.sql",
+   "src/db/store.js",
+   "src/format.js",
+   "src/routes/invoices.js",
+   "src/routes/reports.js",
+   "test/invoices.test.js"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 10,
+  "cfg": "aosrr",
+  "skills": [
+   "rockstar-router",
+   "shape-spec"
+  ],
+  "processed": 201458,
+  "generated": 1559,
+  "turns": 7,
+  "files": 0,
+  "changed": [],
+  "verdict": null
+ },
+ {
+  "id": 10,
+  "cfg": "ccsdd",
+  "skills": [],
+  "processed": 213381,
+  "generated": 2808,
+  "turns": 5,
+  "files": 6,
+  "changed": [
+   "src/db/schema.sql",
+   "src/db/store.js",
+   "src/format.js",
+   "src/routes/invoices.js",
+   "src/routes/reports.js",
+   "test/invoices.test.js"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 10,
+  "cfg": "ccsddrr",
+  "skills": [
+   "rockstar-router",
+   "kiro-spec-quick",
+   "kiro-spec-requirements",
+   "kiro-spec-design",
+   "kiro-spec-tasks"
+  ],
+  "processed": 1215460,
+  "generated": 20774,
+  "turns": 27,
+  "files": 1,
+  "changed": [
+   ".kiro/specs/"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 10,
+  "cfg": "ce",
+  "skills": [],
+  "processed": 292346,
+  "generated": 2809,
+  "turns": 7,
+  "files": 6,
+  "changed": [
+   "src/db/schema.sql",
+   "src/db/store.js",
+   "src/format.js",
+   "src/routes/invoices.js",
+   "src/routes/reports.js",
+   "test/invoices.test.js"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 10,
+  "cfg": "cerr",
+  "skills": [
+   "rockstar-router",
+   "ce-plan"
+  ],
+  "processed": 346009,
+  "generated": 2988,
+  "turns": 10,
+  "files": 0,
+  "changed": [],
+  "verdict": null
+ },
+ {
+  "id": 10,
+  "cfg": "osp",
+  "skills": [],
+  "processed": 282587,
+  "generated": 2330,
+  "turns": 7,
+  "files": 5,
+  "changed": [
+   "src/db/schema.sql",
+   "src/db/store.js",
+   "src/routes/invoices.js",
+   "src/routes/reports.js",
+   "test/invoices.test.js"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 10,
+  "cfg": "osprr",
+  "skills": [
+   "rockstar-router",
+   "openspec-propose"
+  ],
+  "processed": 307983,
+  "generated": 2115,
+  "turns": 9,
+  "files": 0,
+  "changed": [],
+  "verdict": null
+ },
+ {
+  "id": 11,
+  "cfg": "aos",
+  "skills": [],
+  "processed": 279803,
+  "generated": 3498,
+  "turns": 7,
+  "files": 2,
+  "changed": [
+   "src/routes/session.js",
+   "test/session.test.js"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 11,
+  "cfg": "aosrr",
+  "skills": [
+   "rockstar-router",
+   "shape-spec"
+  ],
+  "processed": 162277,
+  "generated": 1739,
+  "turns": 7,
+  "files": 0,
+  "changed": [],
+  "verdict": null
+ },
+ {
+  "id": 11,
+  "cfg": "ccsdd",
+  "skills": [],
+  "processed": 252497,
+  "generated": 2987,
+  "turns": 6,
+  "files": 2,
+  "changed": [
+   "src/routes/session.js",
+   "test/session.test.js"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 11,
+  "cfg": "ccsddrr",
+  "skills": [
+   "rockstar-router",
+   "kiro-spec-init"
+  ],
+  "processed": 175063,
+  "generated": 2051,
+  "turns": 7,
+  "files": 0,
+  "changed": [],
+  "verdict": null
+ },
+ {
+  "id": 11,
+  "cfg": "ce",
+  "skills": [],
+  "processed": 298454,
+  "generated": 3698,
+  "turns": 7,
+  "files": 2,
+  "changed": [
+   "src/routes/session.js",
+   "test/session.test.js"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 11,
+  "cfg": "cerr",
+  "skills": [
+   "rockstar-router"
+  ],
+  "processed": 170262,
+  "generated": 1587,
+  "turns": 5,
+  "files": 0,
+  "changed": [],
+  "verdict": null
+ },
+ {
+  "id": 11,
+  "cfg": "osp",
+  "skills": [],
+  "processed": 280279,
+  "generated": 3201,
+  "turns": 9,
+  "files": 2,
+  "changed": [
+   "src/routes/session.js",
+   "test/session.test.js"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 11,
+  "cfg": "osprr",
+  "skills": [
+   "rockstar-router",
+   "openspec-propose"
+  ],
+  "processed": 263441,
+  "generated": 2476,
+  "turns": 8,
+  "files": 0,
+  "changed": [],
+  "verdict": null
+ },
+ {
+  "id": 12,
+  "cfg": "aos",
+  "skills": [],
+  "processed": 188510,
+  "generated": 815,
+  "turns": 5,
+  "files": 0,
+  "changed": [],
+  "verdict": null
+ },
+ {
+  "id": 12,
+  "cfg": "aosrr",
+  "skills": [],
+  "processed": 154453,
+  "generated": 718,
+  "turns": 4,
+  "files": 0,
+  "changed": [],
+  "verdict": null
+ },
+ {
+  "id": 12,
+  "cfg": "ccsdd",
+  "skills": [],
+  "processed": 200488,
+  "generated": 1048,
+  "turns": 5,
+  "files": 0,
+  "changed": [],
+  "verdict": null
+ },
+ {
+  "id": 12,
+  "cfg": "ccsddrr",
+  "skills": [],
+  "processed": 165137,
+  "generated": 1035,
+  "turns": 4,
+  "files": 0,
+  "changed": [],
+  "verdict": null
+ },
+ {
+  "id": 12,
+  "cfg": "ce",
+  "skills": [],
+  "processed": 160844,
+  "generated": 873,
+  "turns": 4,
+  "files": 0,
+  "changed": [],
+  "verdict": null
+ },
+ {
+  "id": 12,
+  "cfg": "cerr",
+  "skills": [],
+  "processed": 164662,
+  "generated": 975,
+  "turns": 4,
+  "files": 0,
+  "changed": [],
+  "verdict": null
+ },
+ {
+  "id": 12,
+  "cfg": "osp",
+  "skills": [],
+  "processed": 153560,
+  "generated": 729,
+  "turns": 4,
+  "files": 0,
+  "changed": [],
+  "verdict": null
+ },
+ {
+  "id": 12,
+  "cfg": "osprr",
+  "skills": [],
+  "processed": 158292,
+  "generated": 901,
+  "turns": 4,
+  "files": 0,
+  "changed": [],
+  "verdict": null
+ },
+ {
+  "id": 13,
+  "cfg": "aos",
+  "skills": [],
+  "processed": 233016,
+  "generated": 1910,
+  "turns": 7,
+  "files": 1,
+  "changed": [
+   "src/public/signup.html"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 13,
+  "cfg": "aosrr",
+  "skills": [],
+  "processed": 279469,
+  "generated": 2105,
+  "turns": 8,
+  "files": 1,
+  "changed": [
+   "src/public/signup.html"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 13,
+  "cfg": "ccsdd",
+  "skills": [],
+  "processed": 290124,
+  "generated": 2098,
+  "turns": 8,
+  "files": 1,
+  "changed": [
+   "src/public/signup.html"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 13,
+  "cfg": "ccsddrr",
+  "skills": [],
+  "processed": 208792,
+  "generated": 1543,
+  "turns": 5,
+  "files": 1,
+  "changed": [
+   "src/public/signup.html"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 13,
+  "cfg": "ce",
+  "skills": [],
+  "processed": 248370,
+  "generated": 1742,
+  "turns": 6,
+  "files": 2,
+  "changed": [
+   "src/public/signup.html",
+   "src/public/styles.css"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 13,
+  "cfg": "cerr",
+  "skills": [],
+  "processed": 250499,
+  "generated": 1621,
+  "turns": 6,
+  "files": 1,
+  "changed": [
+   "src/public/signup.html"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 13,
+  "cfg": "osp",
+  "skills": [],
+  "processed": 197065,
+  "generated": 1281,
+  "turns": 5,
+  "files": 1,
+  "changed": [
+   "src/public/signup.html"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 13,
+  "cfg": "osprr",
+  "skills": [
+   "rockstar-router"
+  ],
+  "processed": 203447,
+  "generated": 1091,
+  "turns": 6,
+  "files": 0,
+  "changed": [],
+  "verdict": "CLARIFY"
+ },
+ {
+  "id": 14,
+  "cfg": "aos",
+  "skills": [],
+  "processed": 114547,
+  "generated": 618,
+  "turns": 3,
+  "files": 1,
+  "changed": [
+   "src/public/styles.css"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 14,
+  "cfg": "aosrr",
+  "skills": [
+   "rockstar-router",
+   "shape-spec"
+  ],
+  "processed": 123313,
+  "generated": 1109,
+  "turns": 6,
+  "files": 0,
+  "changed": [],
+  "verdict": null
+ },
+ {
+  "id": 14,
+  "cfg": "ccsdd",
+  "skills": [],
+  "processed": 167304,
+  "generated": 1004,
+  "turns": 5,
+  "files": 1,
+  "changed": [
+   "src/public/styles.css"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 14,
+  "cfg": "ccsddrr",
+  "skills": [
+   "rockstar-router",
+   "kiro-spec-quick",
+   "kiro-spec-requirements",
+   "kiro-spec-design"
+  ],
+  "processed": 1087765,
+  "generated": 10840,
+  "turns": 28,
+  "files": 2,
+  "changed": [
+   "src/public/styles.css",
+   ".kiro/specs/"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 14,
+  "cfg": "ce",
+  "skills": [],
+  "processed": 163496,
+  "generated": 767,
+  "turns": 4,
+  "files": 1,
+  "changed": [
+   "src/public/styles.css"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 14,
+  "cfg": "cerr",
+  "skills": [
+   "rockstar-router",
+   "ce-plan",
+   "ce-work"
+  ],
+  "processed": 499956,
+  "generated": 3825,
+  "turns": 15,
+  "files": 1,
+  "changed": [
+   "src/public/styles.css"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 14,
+  "cfg": "osp",
+  "skills": [],
+  "processed": 117223,
+  "generated": 559,
+  "turns": 3,
+  "files": 1,
+  "changed": [
+   "src/public/styles.css"
+  ],
+  "verdict": null
+ },
+ {
+  "id": 14,
+  "cfg": "osprr",
+  "skills": [
+   "rockstar-router",
+   "openspec-propose"
+  ],
+  "processed": 222138,
+  "generated": 2073,
+  "turns": 8,
+  "files": 0,
+  "changed": [],
+  "verdict": null
+ }
+]

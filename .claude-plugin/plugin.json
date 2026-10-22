@@ -1,0 +1,10 @@
+{
+  "name": "rockstar-router",
+  "version": "0.6.0",
+  "description": "Stops your agent from booking a stadium tour to change a button color. Routes every coding request to the right amount of process: quick, standard, deep or clarify.",
+  "author": {
+    "name": "Grégory Babonaux"
+  },
+  "license": "MIT",
+  "keywords": ["skills", "routing", "triage", "superpowers", "bmad", "tokens"]
+}

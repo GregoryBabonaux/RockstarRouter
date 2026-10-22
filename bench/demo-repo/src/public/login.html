@@ -1,0 +1,5 @@
+<form id="login"><button class="btn-primary" id="login-btn"></button></form>
+<script type="module">
+  import { AUTH } from "/config/auth.shared.js";
+  document.getElementById("login-btn").textContent = AUTH.loginLabel;
+</script>

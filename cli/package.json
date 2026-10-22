@@ -1,0 +1,32 @@
+{
+  "name": "rockstar-router-cli",
+  "version": "0.6.0",
+  "description": "Installs RockstarRouter: the skill that stops your coding agent from firing a heavy skill-pack workflow on a one-line change.",
+  "type": "module",
+  "bin": {
+    "rockstar-router": "bin/rockstar-router.js"
+  },
+  "files": [
+    "bin",
+    "src",
+    "skills",
+    "AGENTS.snippet.md",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node --test \"test/*.test.js\"",
+    "prepack": "node ../scripts/bundle.mjs"
+  },
+  "keywords": ["skills", "agent-skills", "claude-code", "codex", "cursor", "superpowers", "bmad", "routing"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GregoryBabonaux/RockstarRouter.git",
+    "directory": "cli"
+  },
+  "homepage": "https://github.com/GregoryBabonaux/RockstarRouter#readme"
+}

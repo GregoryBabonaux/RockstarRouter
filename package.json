@@ -1,0 +1,9 @@
+{
+  "name": "rockstar-router",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test \"hooks/*.test.js\" && npm --prefix cli test",
+    "versions": "node scripts/versions.mjs --check"
+  }
+}

@@ -1,0 +1,3 @@
+:root { --brand-blue: #1d4ed8; --grey: #6b7280; }
+.btn-primary { background: var(--grey); color: #fff; padding: 8px 16px; border-radius: 6px; }
+.dashboard { display: grid; gap: 4px; }

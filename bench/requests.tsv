@@ -1,0 +1,14 @@
+1	Change the primary button color to the brand blue
+2	Fix the typo "recieve" in the signup form
+3	Bump the log level of the payment worker from info to debug
+4	The invoice date is shown in UTC instead of local time, fix it
+5	Add a "copy to clipboard" button next to the API key on the settings page
+6	Users report that search sometimes returns the same customer twice, fix it
+7	Add CSV export to the monthly report
+8	The test suite got slower last week, find out why
+9	Rename the customer_id column to account_id
+10	Add multi-currency support to invoices
+11	Replace session cookies with JWT
+12	Clean up the dashboard
+13	Make onboarding better
+14	/deep change the primary button color to the brand blue

@@ -1,0 +1,15 @@
+{
+  "name": "rockstar-router",
+  "owner": {
+    "name": "Grégory Babonaux"
+  },
+  "description": "RockstarRouter: stops your coding agent from firing a heavy skill-pack workflow on a one-line change.",
+  "plugins": [
+    {
+      "name": "rockstar-router",
+      "source": "./",
+      "description": "Routes every coding request to the right amount of process: quick, standard, deep or clarify.",
+      "version": "0.6.0"
+    }
+  ]
+}
