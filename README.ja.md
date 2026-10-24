@@ -8,6 +8,8 @@
 
 [English](README.md) · [Français](README.fr.md) · [Español](README.es.md) · [Deutsch](README.de.md) · [Português](README.pt-BR.md) · [简体中文](README.zh-CN.md) · **日本語** · [한국어](README.ko.md)
 
+🌐 [ウェブサイト](https://gregorybabonaux.github.io/RockstarRouter/)
+
 **ボタンの色を変えるだけなのに、コーディングエージェントがスタジアムツアーを組み始めるのを止めます。**
 
 RockstarRouter は、コーディングエージェント（Claude Code、Codex、Cursor など）向けの skill です。ほかの skill が動く前に、そのリクエストにどれだけのプロセスが必要かを判断します。

@@ -8,6 +8,8 @@
 
 [English](README.md) · [Français](README.fr.md) · [Español](README.es.md) · **Deutsch** · [Português](README.pt-BR.md) · [简体中文](README.zh-CN.md) · [日本語](README.ja.md) · [한국어](README.ko.md)
 
+🌐 [Website](https://gregorybabonaux.github.io/RockstarRouter/)
+
 **Hält deinen Coding-Agent davon ab, eine Stadiontour zu buchen, nur um die Farbe eines Buttons zu ändern.**
 
 RockstarRouter ist eine Skill für Coding-Agents (Claude Code, Codex, Cursor und andere). Sie entscheidet, wie viel Prozess eine Anfrage verdient, bevor irgendeine andere Skill läuft.

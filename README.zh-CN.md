@@ -8,6 +8,8 @@
 
 [English](README.md) · [Français](README.fr.md) · [Español](README.es.md) · [Deutsch](README.de.md) · [Português](README.pt-BR.md) · **简体中文** · [日本語](README.ja.md) · [한국어](README.ko.md)
 
+🌐 [网站](https://gregorybabonaux.github.io/RockstarRouter/)
+
 **别让你的编程 agent 为了改一个按钮颜色，就去筹办一场体育场巡演。**
 
 RockstarRouter 是一个面向编程 agent（Claude Code、Codex、Cursor 等）的 skill。它在任何其他 skill 运行之前，先判断一个请求需要多少流程。

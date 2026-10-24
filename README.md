@@ -8,6 +8,8 @@
 
 **English** · [Français](README.fr.md) · [Español](README.es.md) · [Deutsch](README.de.md) · [Português](README.pt-BR.md) · [简体中文](README.zh-CN.md) · [日本語](README.ja.md) · [한국어](README.ko.md)
 
+🌐 [Website](https://gregorybabonaux.github.io/RockstarRouter/)
+
 **Stops your coding agent from booking a stadium tour to change a button color.**
 
 RockstarRouter is a skill for coding agents (Claude Code, Codex, Cursor and others). It decides how much process a request deserves before any other skill runs.

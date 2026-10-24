@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>RockstarRouter: the right amount of process for every coding request</title>
+<meta name="description" content="A skill for coding agents that decides, before any other skill runs, whether a request needs a direct fix, one focused skill, or your skill pack's full workflow. Works with superpowers, BMAD, Spec Kit and packs it has never seen.">
+<meta property="og:title" content="RockstarRouter: the right amount of process for every coding request">
+<meta property="og:description" content="Stops your coding agent from booking a stadium tour to change a button color.">
+<meta property="og:image" content="https://raw.githubusercontent.com/GregoryBabonaux/RockstarRouter/main/assets/rock-hand.png">
+<link rel="icon" href="rock-hand-light.png">
+<link rel="preload" href="fonts/big-shoulders-stencil-display-latin-900-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#main" data-i18n="skip">Skip to content</a>
+
+<header class="top">
+  <a class="brand" href="./" aria-label="RockstarRouter home">
+    <img src="rock-hand-light.png" alt="" width="18" height="31">
+    <span>RockstarRouter</span>
+  </a>
+  <nav aria-label="Sections">
+    <a href="#lanes" data-i18n="nav.lanes">Lanes</a>
+    <a href="#packs" data-i18n="nav.packs">Packs</a>
+    <a href="#bench" data-i18n="nav.bench">Benchmark</a>
+    <a href="#install" data-i18n="nav.install">Install</a>
+    <a href="https://github.com/GregoryBabonaux/RockstarRouter">GitHub</a>
+    <label class="lang"><span class="visually-hidden" data-i18n="lang">Language</span>
+      <select id="lang">
+        <option value="en">English</option>
+        <option value="fr">Français</option>
+        <option value="es">Español</option>
+        <option value="de">Deutsch</option>
+        <option value="pt">Português</option>
+        <option value="zh">简体中文</option>
+        <option value="ja">日本語</option>
+        <option value="ko">한국어</option>
+      </select>
+    </label>
+  </nav>
+</header>
+
+<main id="main">
+
+<section class="hero" aria-labelledby="hero-title">
+  <div class="hero-copy">
+    <h1 id="hero-title" data-i18n="hero.title">Stops your coding agent from booking a stadium tour to change a button color.</h1>
+    <p class="lede" data-i18n="hero.lede">RockstarRouter is a skill for coding agents. Before any other skill runs, it decides how much process a request deserves: a direct fix, one focused skill, or your skill pack's full workflow.</p>
+    <div class="cta">
+      <div class="cmd" data-copy>
+        <code>npx skills add GregoryBabonaux/RockstarRouter</code>
+        <button type="button" class="copy" data-i18n="copy">Copy</button>
+      </div>
+      <a class="ghost" href="#install" data-i18n="hero.plugin">Claude Code plugin</a>
+    </div>
+    <p class="agents" data-i18n="hero.agents">Works with Claude Code, Codex, Cursor, Gemini CLI, GitHub Copilot and any agent that reads <code>SKILL.md</code>.</p>
+  </div>
+
+  <figure class="setlist-wrap">
+    <div class="setlist" role="list" aria-label="Four requests and the lane picked for each">
+      <p class="setlist-title" data-i18n="set.title">Tonight's setlist</p>
+      <div class="song" role="listitem">
+        <span class="req" data-i18n="set.r1">Fix the typo in the signup form</span>
+        <span class="lane quick">QUICK</span>
+      </div>
+      <div class="song" role="listitem">
+        <span class="req" data-i18n="set.r2">Search shows the same customer twice</span>
+        <span class="lane standard">STANDARD</span>
+      </div>
+      <div class="song" role="listitem">
+        <span class="req" data-i18n="set.r3">Rename the customer_id column</span>
+        <span class="lane deep">DEEP</span>
+      </div>
+      <div class="song" role="listitem">
+        <span class="req" data-i18n="set.r4">Make onboarding better</span>
+        <span class="lane clarify">CLARIFY</span>
+      </div>
+    </div>
+    <figcaption data-i18n="set.caption">Four requests, four amounts of process.</figcaption>
+  </figure>
+</section>
+
+<section class="problem" aria-labelledby="problem-title">
+  <h2 id="problem-title" data-i18n="problem.title">Skill packs have no sense of proportion</h2>
+  <p class="intro" data-i18n="problem.intro">Packs like superpowers, BMAD or Spec Kit teach your agent a method: brainstorming, spec, plan, task list, review. On a real feature, that method pays off. The trouble is when it runs.</p>
+  <div class="two">
+    <div class="side too-much">
+      <h3 data-i18n="problem.much.t">Too much</h3>
+      <p data-i18n="problem.much.p">Some packs run the whole method on every request. You wait, and spend tokens, for a one-line change.</p>
+    </div>
+    <div class="side too-little">
+      <h3 data-i18n="problem.little.t">Too little</h3>
+      <p data-i18n="problem.little.p">Others never start their method on their own, even for a database migration, unless you call it yourself.</p>
+    </div>
+  </div>
+</section>
+
+<section id="lanes" class="lanes" aria-labelledby="lanes-title">
+  <h2 id="lanes-title" data-i18n="lanes.title">Four lanes, picked for each request</h2>
+  <p class="intro" data-i18n="lanes.intro">RockstarRouter reads the request, checks its size, its risk and how clear it is, then picks a lane. It does not replace your pack: it decides when to use it.</p>
+  <dl class="lane-list">
+    <div class="lane-row quick">
+      <dt>QUICK</dt>
+      <dd><strong data-i18n="l.q.when">Small, clear and easy to undo.</strong> <span data-i18n="l.q.do">The agent finds the code, changes it and checks it. No skill.</span></dd>
+    </div>
+    <div class="lane-row standard">
+      <dt>STANDARD</dt>
+      <dd><strong data-i18n="l.s.when">A real bug, or a few files.</strong> <span data-i18n="l.s.do">One focused skill at most, such as debugging or TDD.</span></dd>
+    </div>
+    <div class="lane-row deep">
+      <dt>DEEP</dt>
+      <dd><strong data-i18n="l.d.when">Database schema, migration, auth, payment, several modules, new feature.</strong> <span data-i18n="l.d.do">Your pack's full workflow.</span></dd>
+    </div>
+    <div class="lane-row clarify">
+      <dt>CLARIFY</dt>
+      <dd><strong data-i18n="l.c.when">The expected result is unclear.</strong> <span data-i18n="l.c.do">Two questions at most, then a lane.</span></dd>
+    </div>
+  </dl>
+  <p class="note" data-i18n="lanes.note">If a quick change turns out bigger than expected, the agent stops and picks a new lane. To force a lane, start your message with <code>/deep</code> or <code>/quick</code>.</p>
+</section>
+
+<section class="encore" aria-labelledby="encore-title">
+  <div class="encore-copy">
+    <h2 id="encore-title" data-i18n="encore.title">It tells you what it skipped</h2>
+    <p data-i18n="encore.p">When it keeps a heavy workflow off stage, it says so in one line. The attitude stays in the chat: code, commits and pull requests stay plain.</p>
+    <div class="tone" role="group" aria-label="Tone">
+      <button type="button" class="on" data-tone="rock" aria-pressed="true">rock</button>
+      <button type="button" data-tone="sober" aria-pressed="false">sober</button>
+    </div>
+    <p class="small" data-i18n="encore.var">Pick the tone with <code>ROCKSTAR_ROUTER_TONE</code>.</p>
+  </div>
+  <div class="term" aria-live="polite">
+    <p class="term-bar"><span></span><span></span><span></span></p>
+    <pre><code><span class="prompt">&gt;</span> change the primary button color to the brand blue
+<span class="dim">Edited src/public/styles.css (1 line)</span>
+<span class="line" data-tone-line="rock">🎸 superpowers:brainstorming wanted a full set-list meeting for one button. I just plugged in and played.</span><span class="line" data-tone-line="sober" hidden>Skipped superpowers:brainstorming: not needed for this change.</span></code></pre>
+  </div>
+</section>
+
+<section id="packs" class="packs" aria-labelledby="packs-title">
+  <h2 id="packs-title" data-i18n="packs.title">Works with packs it has never seen</h2>
+  <p class="intro" data-i18n="packs.intro">No pack-specific code. RockstarRouter reads the descriptions of your installed skills: brainstorming, spec and plan skills are kept for DEEP, debugging and TDD skills can play STANDARD, and anything it cannot classify is treated as DEEP.</p>
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr><th data-i18n="packs.h1">Pack</th><th data-i18n="packs.h2">Starts its heavy workflow on its own?</th><th data-i18n="packs.h3">Specific profile</th></tr>
+      </thead>
+      <tbody>
+        <tr><td><a href="https://github.com/obra/superpowers">superpowers</a></td><td data-i18n="p.often">yes, often</td><td data-i18n="p.yes">yes</td></tr>
+        <tr><td><a href="https://github.com/bmad-code-org/BMAD-METHOD">BMAD Method</a></td><td data-i18n="p.sometimes">sometimes</td><td data-i18n="p.yes2">yes</td></tr>
+        <tr><td><a href="https://github.com/github/spec-kit">Spec Kit</a></td><td data-i18n="p.no1">no</td><td data-i18n="p.gen1">no, generic rules</td></tr>
+        <tr><td><a href="https://github.com/affaan-m/ECC">ECC</a></td><td data-i18n="p.no2">no</td><td data-i18n="p.gen2">no, generic rules</td></tr>
+        <tr><td><a href="https://github.com/Fission-AI/OpenSpec">OpenSpec</a></td><td data-i18n="p.no3">no</td><td data-i18n="p.gen3">no, generic rules</td></tr>
+        <tr><td><a href="https://github.com/gotalab/cc-sdd">cc-sdd</a></td><td data-i18n="p.no4">no</td><td data-i18n="p.gen4">no, generic rules</td></tr>
+        <tr><td><a href="https://github.com/EveryInc/compound-engineering-plugin">Compound Engineering</a></td><td data-i18n="p.no5">no</td><td data-i18n="p.gen5">no, generic rules</td></tr>
+        <tr><td><a href="https://github.com/buildermethods/agent-os">Agent OS</a></td><td data-i18n="p.no6">no</td><td data-i18n="p.gen6">no, generic rules</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="note" data-i18n="packs.note">Six of the eight packs were handled by the generic rules alone.</p>
+</section>
+
+<section id="bench" class="bench" aria-labelledby="bench-title">
+  <h2 id="bench-title" data-i18n="bench.title">Measured on 8 packs</h2>
+  <p class="intro" data-i18n="bench.intro">14 requests on a small demo repo, each pack with and without RockstarRouter. Claude Code 2.1.308, Sonnet, October 2026. Each lit segment is one run.</p>
+
+  <div class="meters">
+    <div class="meter-block">
+      <h3 data-i18n="bench.a.t">Heavy workflow on a small request</h3>
+      <p class="meter-sub" data-i18n="bench.a.s">Out of 10 small requests. Lower is better.</p>
+      <div class="meter-row">
+        <span class="who">superpowers</span>
+        <span class="vu-line"><i data-i18n="bench.without">without</i><span class="vu bad" style="--on:5;--n:10" role="img" aria-label="Without: 5 out of 10"></span><b>5/10</b></span>
+        <span class="vu-line"><i data-i18n="bench.with">with</i><span class="vu good" style="--on:0;--n:10" role="img" aria-label="With: 0 out of 10"></span><b>0/10</b></span>
+      </div>
+      <div class="meter-row">
+        <span class="who">BMAD Method</span>
+        <span class="vu-line"><i data-i18n="bench.without2">without</i><span class="vu bad" style="--on:1;--n:10" role="img" aria-label="Without: 1 out of 10"></span><b>1/10</b></span>
+        <span class="vu-line"><i data-i18n="bench.with2">with</i><span class="vu good" style="--on:0;--n:10" role="img" aria-label="With: 0 out of 10"></span><b>0/10</b></span>
+      </div>
+      <p class="meter-foot" data-i18n="bench.a.foot">The 6 other packs: 0 with and without. superpowers shows its worst run out of two (3 and 5).</p>
+    </div>
+
+    <div class="meter-block">
+      <h3 data-i18n="bench.b.t">Heavy workflow when the change needed it</h3>
+      <p class="meter-sub" data-i18n="bench.b.s">Out of 4 large or risky requests. Higher is better.</p>
+      <div class="meter-row">
+        <span class="who">superpowers, BMAD</span>
+        <span class="vu-line"><i data-i18n="bench.without3">without</i><span class="vu dim-bad" style="--on:2;--n:4" role="img" aria-label="Without: 2 out of 4"></span><b>2/4</b></span>
+        <span class="vu-line"><i data-i18n="bench.with3">with</i><span class="vu good-up" style="--on:4;--n:4" role="img" aria-label="With: 4 out of 4"></span><b>4/4</b></span>
+      </div>
+      <div class="meter-row">
+        <span class="who" data-i18n="bench.others">6 other packs</span>
+        <span class="vu-line"><i data-i18n="bench.without4">without</i><span class="vu dim-bad" style="--on:0;--n:4" role="img" aria-label="Without: 0 out of 4"></span><b>0/4</b></span>
+        <span class="vu-line"><i data-i18n="bench.with4">with</i><span class="vu good-up" style="--on:4;--n:4" role="img" aria-label="With: 4 out of 4"></span><b>4/4</b></span>
+      </div>
+      <p class="meter-foot" data-i18n="bench.b.foot">Without the router, those 6 packs coded multi-currency straight into 5 to 6 files, with no spec.</p>
+    </div>
+  </div>
+
+  <p class="note" data-i18n="bench.note">Cost on small requests: +3k to +57k tokens per request depending on the pack. One model, one small repo, one or two runs per configuration. Raw data and the scripts to rerun it are in <a href="https://github.com/GregoryBabonaux/RockstarRouter/tree/main/bench">bench/</a>.</p>
+</section>
+
+<section id="install" class="install" aria-labelledby="install-title">
+  <h2 id="install-title" data-i18n="install.title">Install</h2>
+  <ol class="steps">
+    <li>
+      <h3 data-i18n="s1.t">Install the skill</h3>
+      <div class="tabs" role="tablist" aria-label="Agent">
+        <button type="button" role="tab" id="tab-cc" aria-controls="panel-cc" aria-selected="true" data-i18n="tab.cc">Claude Code</button>
+        <button type="button" role="tab" id="tab-any" aria-controls="panel-any" aria-selected="false" tabindex="-1" data-i18n="tab.any">Any agent</button>
+        <button type="button" role="tab" id="tab-npm" aria-controls="panel-npm" aria-selected="false" tabindex="-1" data-i18n="tab.npm">Without skills.sh</button>
+      </div>
+      <div class="panel" role="tabpanel" id="panel-cc" aria-labelledby="tab-cc">
+        <div class="cmd" data-copy><code>/plugin marketplace add GregoryBabonaux/RockstarRouter</code><button type="button" class="copy" data-i18n="copy2">Copy</button></div>
+        <div class="cmd" data-copy><code>/plugin install rockstar-router@rockstar-router</code><button type="button" class="copy" data-i18n="copy3">Copy</button></div>
+        <p data-i18n="panel.cc">Recommended. Adds the skill and two hooks: the routing rule loads at session start, and <code>/deep</code> and <code>/quick</code> are always recognized.</p>
+      </div>
+      <div class="panel" role="tabpanel" id="panel-any" aria-labelledby="tab-any" hidden>
+        <div class="cmd" data-copy><code>npx skills add GregoryBabonaux/RockstarRouter</code><button type="button" class="copy" data-i18n="copy4">Copy</button></div>
+        <p data-i18n="panel.any">For Codex, Cursor, Gemini CLI, GitHub Copilot, OpenCode and others. Installs in the project, or globally with <code>-g</code>.</p>
+      </div>
+      <div class="panel" role="tabpanel" id="panel-npm" aria-labelledby="tab-npm" hidden>
+        <div class="cmd" data-copy><code>npx rockstar-router-cli skills --yes</code><button type="button" class="copy" data-i18n="copy5">Copy</button></div>
+        <p data-i18n="panel.npm">Copies the skill to <code>~/.agents/skills</code> and <code>~/.claude/skills</code>.</p>
+      </div>
+    </li>
+    <li>
+      <h3 data-i18n="s2.t">Add the routing rule to your project</h3>
+      <div class="cmd" data-copy><code>npx rockstar-router-cli init</code><button type="button" class="copy" data-i18n="copy6">Copy</button></div>
+      <p data-i18n="s2.p">Shows what it will write in <code>AGENTS.md</code> (and <code>CLAUDE.md</code> or <code>GEMINI.md</code> if your project uses them). Nothing is written until you add <code>--yes</code>. Optional with the Claude Code plugin.</p>
+    </li>
+    <li>
+      <h3 data-i18n="s3.t">Check</h3>
+      <div class="cmd" data-copy><code>npx rockstar-router-cli doctor</code><button type="button" class="copy" data-i18n="copy7">Copy</button></div>
+    </li>
+  </ol>
+</section>
+
+</main>
+
+<footer class="foot">
+  <img src="rock-hand-light.png" alt="" width="70" height="122" loading="lazy">
+  <div>
+    <p><a href="https://github.com/GregoryBabonaux/RockstarRouter">GitHub</a> <a id="readme" href="https://github.com/GregoryBabonaux/RockstarRouter/blob/main/README.md">README</a> <span data-i18n="foot.license">MIT license</span></p>
+    <p class="small"><span data-i18n="foot.by">Made by Grégory Babonaux.</span> <span data-i18n="foot.illu">Illustration:</span> <a href="https://www.magnific.com/free-photos-vectors/metal-fingers">Magnific</a></p>
+  </div>
+</footer>
+
+<script src="i18n.js"></script>
+<script src="site.js"></script>
+</body>
+</html>

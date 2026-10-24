@@ -8,6 +8,8 @@
 
 [English](README.md) · **Français** · [Español](README.es.md) · [Deutsch](README.de.md) · [Português](README.pt-BR.md) · [简体中文](README.zh-CN.md) · [日本語](README.ja.md) · [한국어](README.ko.md)
 
+🌐 [Site web](https://gregorybabonaux.github.io/RockstarRouter/)
+
 **Empêche ton agent de code de réserver une tournée des stades pour changer la couleur d'un bouton.**
 
 RockstarRouter est une skill pour les agents de code (Claude Code, Codex, Cursor et d'autres). Elle décide du niveau de process que mérite une demande, avant que toute autre skill ne s'exécute.

@@ -1,0 +1,9 @@
+These fonts are distributed under the SIL Open Font License, Version 1.1 (https://openfontlicense.org),
+except Permanent Marker, distributed under the Apache License, Version 2.0.
+
+- Big Shoulders Stencil Display: Copyright The Big Shoulders Project Authors
+- Archivo: Copyright 2020 The Archivo Project Authors (https://github.com/Omnibus-Type/Archivo)
+- IBM Plex Mono: Copyright IBM Corp.
+- Permanent Marker: Copyright Font Diner
+
+Files taken from the Fontsource packages (https://fontsource.org).
