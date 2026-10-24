@@ -327,3 +327,8 @@ tbody tr:nth-child(-n + 2) td:nth-child(2) { color: var(--magenta); font-weight:
   .req { font-size: 15px; }
   .lane { font-size: 15px; }
 }
+
+/* ---------- CJK: the stencil face has no glyphs, so titles fall back to a system face ---------- */
+:lang(zh) .hero h1, :lang(ja) .hero h1, :lang(ko) .hero h1 { font-size: clamp(32px, 4.4vw, 56px); line-height: 1.2; }
+:lang(zh) h2, :lang(ja) h2, :lang(ko) h2 { font-size: clamp(28px, 4vw, 44px); line-height: 1.25; }
+:lang(zh) .setlist-title, :lang(ja) .setlist-title, :lang(ko) .setlist-title { font-size: 24px; }
